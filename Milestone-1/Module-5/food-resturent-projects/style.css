@@ -1,0 +1,245 @@
+/* work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+  /* font-family: "Work Sans", sans-serif; */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+#hero{
+  height: 620px;
+  background: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(assets/hero-bg.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .hero-content{
+  width:666px;
+}
+#hero .hero-content .subtitle{
+  color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+
+}
+#hero .hero-content .title{
+  color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+}
+#hero .hero-content .description{
+color: rgb(255, 255, 255);
+ font-family: "Work Sans", sans-serif;
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+.btn{
+  color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 40px;
+transition: 2s transform;
+
+padding: 16px 18px 16px 18px;
+ border-radius: 8px;
+background: rgb(82, 195, 3);
+border: none;
+}
+.btn:hover{
+  transform: scale(1.1);
+}
+.btn-container{
+  text-align: center;
+}
+
+/* food menu section start hare */
+#food-menu{
+  height: 680px;
+  width: 880px;
+  margin: 100px auto;
+  font-family: "Work Sans", sans-serif;
+}
+.food-menu__container{
+  display: flex;
+  justify-content: space-between;
+}
+.food-menu__title p{
+  color: rgb(16, 16, 16);
+  font-family: "Work Sans", sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+
+}
+.food-menu__title h2{
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 34px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: center;
+margin: 20px auto;
+}
+.food-menu__image{
+  width: 250px;
+}
+.food-menu__image img{
+  width: 100%;
+}
+.food-menu__description{
+  width:250px;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+
+
+/* .food-menu__datails{
+ 
+} */
+.food-name{
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 6px;
+background: rgba(82, 195, 3, 0.15);
+margin: 16px 0px;
+padding: 10px 18px 10px 18px;
+
+}
+.food-offers{
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 28px;
+font-weight: 600;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.food-items{
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 12px;
+}
+
+
+
+/* food menu section ends hare */
+/* contact us section start hare */
+#about-us{
+ height: 400px;
+  width: 880px;
+  display: flex;
+  margin: 50px auto;
+}
+
+.good-food__image{
+  width: 650px;
+  opacity: 0.7;
+  
+}
+.good-food__image:hover{
+  opacity: 1;
+}
+
+.good-food__image img{
+  width: 100%;
+  
+}
+.our-services__container{
+  display: flex;
+  justify-content: center;
+  margin: 30px 30px;
+ 
+}
+.our-services h3{
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+}
+.our-services p{
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+margin-top: 10px;
+
+}
+.follow{
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+margin-top: 20px;
+}
+.follow p{
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom:20px;
+
+}
+.social-icon{
+  justify-content: center;
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+#footer{
+  margin-top: 50px;
+}
+
+
+/* contact us section end hare */
+
+

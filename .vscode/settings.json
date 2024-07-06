@@ -1,0 +1,5 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "bracketSameLine": true,
+  "liveServer.settings.port": 5501
+}

@@ -1,0 +1,79 @@
+.cricket-field{
+  border: 2px solid green;
+  width: 1400px;
+  height: 600px;
+}
+.bat{
+  height: 90%;
+  transition: transform 0.1s;
+}
+.ball{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  left: 750px;
+  transition: transform 0.2s;
+}
+.cricket-field:hover .bat{
+  transform: rotate(-60deg);
+  transform-origin: top right;
+}
+.cricket-field:hover .ball{
+  transform: translate(500px,-1000px)
+  
+}
+
+/* animation */
+@keyframes bounce{
+  0%{
+    top: 0px;
+    left: 0px;
+    
+
+  } 
+  25%{
+     top: 300px;
+    left: 150px;
+   
+
+  }
+  50%{   
+    top: 0px;
+    left: 300px;
+    background-color: red;
+ 
+
+  }
+  75%{   
+    top: 300px;
+    left: 300px;
+
+ 
+
+  }
+
+  100%{
+    top: 0px;
+    left:550px;
+    
+
+  }
+
+}
+
+.animation-box{
+  background-color: aquamarine;
+  width: 800px;
+  height: 400px;
+  margin: 100px auto;
+}
+.yellow-ball{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  animation: bounce 5s linear 1s infinite alternate;
+  position: relative;
+}

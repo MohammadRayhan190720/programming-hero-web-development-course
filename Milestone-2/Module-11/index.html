@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS3 Features</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .box-1{
+      width: 300px;
+      height: 300px;
+      border: 2px solid red;
+      overflow: auto;
+      overflow-x: hidden;
+    }
+    .box-2{
+      width: 300px;
+      border: 2px solid red;
+      
+
+    }
+    .box-desc{
+
+      text-overflow:ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .box-style{
+      width: 200px;
+      height: 200px;
+      background-color: burlywood;
+      transition: width 3s linear 1s, height 3s linear 1s, transform 3s 1s;
+    }
+    .box-style:hover{
+      width: 300px;
+      height: 300px;
+      transform: rotate(180deg) translate(150px);
+      
+    }
+
+   
+    
+  </style>
+</head>
+<body>
+
+  <!-- overflow,text-overFlow,ellipsis,title -->
+
+  <div class="container">
+    <div class="box-1">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit voluptatem tenetur earum cupiditate. Cum ipsam quibusdam perferendis veritatis, sed odio nisi et provident, ab eum illum ratione numquam dolore. Doloribus eaque in distinctio. Voluptas temporibus consequuntur repellat facilis qui maiores iusto illo voluptate dolore tempore asperiores nulla eaque mollitia ullam perferendis dolores sit ad consectetur iste vel maxime cum, alias atque. Optio blanditiis harum reiciendis nesciunt! Corrupti dolor nesciunt totam numquam nam delectus eligendi eaque aspernatur nulla cupiditate, quo animi quia distinctio dolorem sed quasi, veniam labore esse fugiat odit quidem voluptas recusandae soluta dolore? Id quod rerum fugit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium enim deleniti dolor atque ullam officia, hic, culpa ad eius odio voluptas adipisci omnis sunt eveniet doloribus facere expedita itaque nesciunt rem? Optio deserunt totam est nesciunt quibusdam nobis vel quis nostrum? Fugit, nobis dicta. Soluta amet eos velit perspiciatis voluptas. </p>
+    </div>
+   <div class="box-2">
+    <p title="Click hare to more" class="box-desc" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nostrum ducimus eaque dolorum neque nihil atque dignissimos quasi soluta libero! Omnis, sunt nulla, necessitatibus, nam repellendus aperiam nostrum illo ipsa porro voluptas eligendi sit enim distinctio? Quae beatae et earum debitis eligendi quos ad aut totam autem quisquam eos quo quis, corporis molestiae repellat repudiandae iure, facere dignissimos dicta, illum dolores alias deserunt dolorum minus. Illo, obcaecati! Obcaecati aspernatur cum dolorum aliquid in, facere nulla fugiat tempora quasi dolorem fuga magnam quod sequi nisi labore reprehenderit? Sed velit quasi molestiae quis quod perspiciatis ullam, vitae dolores doloremque totam rem fugiat.</p>
+
+   </div>
+
+  </div>
+  <div class="box-style">
+    
+  </div>
+
+
+  <div class="cricket-field">
+    <img src="images/bat-2.webp" alt="" class="bat">
+    <div class="ball">
+
+    </div>
+  </div>
+
+  <div class="animation-box">
+    <div class="yellow-ball">
+      
+    </div>
+  </div>
+  
+</body>
+</html>

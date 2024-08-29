@@ -8,11 +8,11 @@ console.log(studentName);
 const age = 18;
 console.log(age);
 console.log(typeof age);
-//number/numeric
+//string
 const country = Bangladesh;
 console.log(country);
 console.log(typeof age);
-//number/numeric
+//bollean
 const isRich = true;
 console.log(isRich);
 console.log(typeof isRich);

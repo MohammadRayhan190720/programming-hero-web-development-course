@@ -91,4 +91,15 @@ var biology = 90.5;
  //task-3
  var number = 125;
  console.log(number%2);
- 
+
+//  task-4
+
+//  What will be the result of the following codes:
+
+var a = isNaN('11');
+
+// var a = isNaN("Rayhan");
+console.log(a);
+
+
+// Explain your answers.

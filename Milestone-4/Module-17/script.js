@@ -9,9 +9,9 @@ const age = 18;
 console.log(age);
 console.log(typeof age);
 //string
-const country = Bangladesh;
+const country = "Bangladesh";
 console.log(country);
-console.log(typeof age);
+console.log(typeof country);
 //bollean
 const isRich = true;
 console.log(isRich);

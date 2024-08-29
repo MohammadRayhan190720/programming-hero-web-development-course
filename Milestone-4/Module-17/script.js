@@ -87,3 +87,8 @@ var chemestry = 80;
 var biology = 90.5;
  var result = (physics + chemestry + math + biology)/4
  console.log(result.toFixed(5));
+
+ //task-3
+ var number = 125;
+ console.log(number%2);
+ 

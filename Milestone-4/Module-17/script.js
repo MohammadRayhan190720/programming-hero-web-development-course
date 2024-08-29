@@ -73,3 +73,9 @@ console.log(parseFloat(id));
 // ```
 
 // এখানে, **`isNaN(123)`** `false` রিটার্ন করবে কারণ 123 একটি বৈধ সংখ্যা, এবং **`isNaN('Hello')`** `true` রিটার্ন করবে কারণ `'Hello'` সংখ্যা নয়।
+
+//task1
+var totalMoney = 1000;
+var orangeApple = 700;
+var returnMoney = totalMoney - orangeApple;
+console.log(returnMoney);

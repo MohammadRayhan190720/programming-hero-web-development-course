@@ -98,8 +98,8 @@ var biology = 90.5;
 
 var a = isNaN('11');
 
-// var a = isNaN("Rayhan");
-console.log(a);
+var a = isNaN("Rayhan");
+
 
 
 // Explain your answers.

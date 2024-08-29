@@ -79,3 +79,11 @@ var totalMoney = 1000;
 var orangeApple = 700;
 var returnMoney = totalMoney - orangeApple;
 console.log(returnMoney);
+
+// task-2
+var physics = 70.5;
+var math = 70;
+var chemestry = 80;
+var biology = 90.5;
+ var result = (physics + chemestry + math + biology)/4
+ console.log(result.toFixed(5));

@@ -18,6 +18,8 @@ if(age >= 24){
 
 //multiple conditional Logical Operators
 
+// program-1
+
 const shoping = 1000;
 
 if ( shoping >= 5000){
@@ -35,4 +37,33 @@ else if ( shoping >= 2000){
 else{
   console.log(shoping);
 }
+// program-2
+
+const year = 42 ;
+const foodPrize = 1000;
+if( year <= 12){
+  console.log("you can eat free as a child")
+}
+else if( year >=40){
+  let discountAmount = foodPrize * 10 / 100 ;
+  let payAmount = foodPrize - discountAmount;
+  console.log(payAmount);
+}
+else if( year >=50){
+  let discountAmount = foodPrize * 20 / 100 ;
+  let payAmount = foodPrize - discountAmount;
+  console.log(payAmount);
+}
+else if( year >=60){
+  let discountAmount = foodPrize * 50 / 100 ;
+  let payAmount = foodPrize - discountAmount;
+  console.log(payAmount);
+}
+
+else {
+  console.log(foodPrize);
+  
+}
+
+
 

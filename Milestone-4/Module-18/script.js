@@ -137,6 +137,7 @@ console.log(mullo)
 // console.log(prize);
 
 
-
+let result = 10 < "5";
+console.log(result);
 
 

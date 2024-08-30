@@ -18,3 +18,21 @@ if(age >= 24){
 
 //multiple conditional Logical Operators
 
+const shoping = 1000;
+
+if ( shoping >= 5000){
+  //discount 20%
+  let discountAmount = shoping * 20 / 100 ;
+  let payAmount = shoping - discountAmount;
+  console.log(payAmount);
+}
+else if ( shoping >= 2000){
+  let discountAmount = shoping *10 / 100 ;
+  let payAmount = shoping - discountAmount;
+  console.log(payAmount);
+}
+
+else{
+  console.log(shoping);
+}
+

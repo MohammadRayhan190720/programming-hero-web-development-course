@@ -113,7 +113,10 @@ const isLeader = true;
 
 // use tarnary
 
-prize = isLeader === true ? prize >=1000 ? prize /2 : 0 : prize + 100 ;
+prize = isLeader === true ? 
+                    prize >=1000 ?
+                     prize /2 : 0 : 
+                     prize + 100 ;
 console.log(prize);
 
 

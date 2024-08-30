@@ -15,3 +15,6 @@ if(age >= 24){
 } else{
   console.log("early marrage")
 }
+
+//multiple conditional Logical Operators
+

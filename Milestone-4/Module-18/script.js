@@ -113,11 +113,30 @@ const isLeader = true;
 
 // use tarnary
 
-prize = isLeader === true ? 
-                    prize >=1000 ?
-                     prize /2 : 0 : 
-                     prize + 100 ;
-console.log(prize);
+// prize = isLeader === true ? 
+//                     prize >=1000 ?
+//                      prize /2 : 0 : 
+//                      prize + 100 ;
+// console.log(prize);
+
+//logical not(!)
+
+let mullo = 500;
+const isneta = false;
+ 
+if(!isneta){
+  mullo = 0;
+}else{
+  mullo = mullo +100;
+}
+console.log(mullo)
+
+// use tarnary
+
+// prize = isLeader === true ? 0 : prize + 100 ;
+// console.log(prize);
+
+
 
 
 

@@ -65,5 +65,21 @@ else {
   
 }
 
+// grade calculation
+
+//tarnary operator
+
+
+const roll = 15;
+// if(roll <= 10){
+//   console.log("Good student")
+// }
+// else{
+//   console.log("Avarage student")
+// }
+
+roll <= 10 ? console.log("Good student") : console.log("Avarage student");
+
+
 
 

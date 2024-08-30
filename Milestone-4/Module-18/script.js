@@ -148,6 +148,14 @@ Free Drinks
     - Else Coke: 30tk
 */
 
+let burgerPrize = 450 ;
+if( burgerPrize >=500){
+  console.log("free coke")
+} else{
+  console.log("coke :30tk")
+}
+
+
 //task-2
 /*** 
 

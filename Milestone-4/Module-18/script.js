@@ -69,8 +69,8 @@ else {
 
 //tarnary operator
 
-
-const roll = 15;
+// normal case
+// const roll = 15;
 // if(roll <= 10){
 //   console.log("Good student")
 // }
@@ -78,8 +78,43 @@ const roll = 15;
 //   console.log("Avarage student")
 // }
 
-roll <= 10 ? console.log("Good student") : console.log("Avarage student");
+// roll <= 10 ? console.log("Good student") : console.log("Avarage student");
 
+// advence ternary
+// let prize = 500;
+// const isLeader = true;
+ 
+// if(isLeader === true){
+//   prize = 0;
+// }else{
+//   prize = prize +100;
+// }
+// console.log(prize)
+
+// use tarnary
+
+// prize = isLeader === true ? 0 : prize + 100 ;
+// console.log(prize);
+// more advance
+// advence ternary
+let prize = 1500;
+const isLeader = true;
+ 
+// if(isLeader === true){
+//   if(prize >= 1000){
+//     prize = prize /2;
+//   }else{
+//     prize = 0;
+//   }
+// }else{
+//   prize = prize +100;
+// }
+// console.log(prize)
+
+// use tarnary
+
+prize = isLeader === true ? prize >=1000 ? prize /2 : 0 : prize + 100 ;
+console.log(prize);
 
 
 

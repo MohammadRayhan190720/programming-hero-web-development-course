@@ -41,4 +41,18 @@ console.log(favouriteFood.indexOf("mango"));
 //isArray
 console.log(Array.isArray(fruits));
 
-join()
+//join()
+console.log(fruits.join('|'))
+
+//concate()
+
+const food =  fruits.concat(favouriteFood);
+console.log(food);
+
+//slice()
+const pizza = [5,10,20,30,40,50]
+console.log(pizza.slice(2,4));
+
+//splice()
+const pizza1 = [5, 10, 20, 30, 40, 50];
+console.log(pizza1.splice(3,3));

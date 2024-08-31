@@ -98,6 +98,13 @@ console.log(favouritePlace);
 // Use the includes method to check if the array contains a javascript book.
 
 // Print a message to the console indicating whether the element is present in the array or not.
+const books = ["physices", "chemestry","math","Biology","English"];
+console.log(books.includes("Bangla"))
+if(books.includes("English")){
+  console.log("Read All Book")
+}else{
+  Console.log("Never read Book Like English")
+}
 
 // task-4
 // 4. Checking if it's an Array

@@ -77,6 +77,18 @@ console.log(fruits123);
 // Remove the last tourist destination you have added
 // display the final array as output
 
+const favouritePlace = ["coxbazar","Slyhet","Ctg"]
+favouritePlace.push("Pakistan");
+console.log(favouritePlace);
+favouritePlace.push("sigapur");
+favouritePlace.push("soudiArobia");
+console.log(favouritePlace);
+favouritePlace.pop()
+console.log(favouritePlace);
+
+
+
+
 //task-3
 // 3. Checking Array Membership with ‘includes’
 // Instructions:

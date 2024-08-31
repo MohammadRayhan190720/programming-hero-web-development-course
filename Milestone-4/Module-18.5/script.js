@@ -116,6 +116,18 @@ if(books.includes("English")){
 
 // Print a message to the console indicating whether each variable is an array or not.
 
+const age = 15;
+const names = [];
+const results = [3.5,2.4,5.00];
+console.log(Array.isArray(age))
+console.log(Array.isArray(names))
+console.log(Array.isArray(results))
+
+if(Array.isArray(age)){
+  console.log("I am a array")
+} else{
+  console.log("I am not a Array")
+}
 //task--5
 // 5. Combining Arrays
 // Instructions:

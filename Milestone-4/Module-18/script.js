@@ -271,6 +271,19 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
+const num1 = 10;
+const num2 = 20;
+let result1;
+// if(num1> num2){
+//   result1 = num1*num1;
+//   console.log(result1);
+// }else{
+//   result1 = num1 + num2;
+//   console.log(result1);
+// }
+
+num1>num2 ? console.log(result = num1*num1): console.log(result = num1 + num2)
+
 
 //task-6
 

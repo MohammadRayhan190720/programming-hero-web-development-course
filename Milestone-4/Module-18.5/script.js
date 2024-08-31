@@ -38,3 +38,7 @@ if (fruits.includes('pineapple')){
 const favouriteFood = ["mango", "banana", "apple", "orange", "jackfruits"];
 console.log(favouriteFood.indexOf("mango"));
 
+//isArray
+console.log(Array.isArray(fruits));
+
+join()

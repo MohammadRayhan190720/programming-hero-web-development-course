@@ -64,6 +64,11 @@ console.log(pizza1.splice(3,3));
 // change the value of the 2nd index element to jambura
 // console log the final array
 
+const fruits123 = ["mango","banana","appple","orange","jackfruits"];
+console.log(fruits123[3])
+fruits123[2] = "jamubura";
+console.log(fruits123);
+
 //task-2
 // 2. Add or remove elements
 // Declare an array of 3 tourist destinations

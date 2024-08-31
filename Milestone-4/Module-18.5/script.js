@@ -33,3 +33,8 @@ if (fruits.includes('pineapple')){
 }else{
   console.log("never eat Fruits");
 }
+
+//indexof()
+const favouriteFood = ["mango", "banana", "apple", "orange", "jackfruits"];
+console.log(favouriteFood.indexOf("mango"));
+

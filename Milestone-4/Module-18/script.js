@@ -297,11 +297,11 @@ Ticket fare Calculator
 */
 const ticket = 800;
 let age1 = 20;
-let position = "students";
+let position = "workers";
 if( age1 <10 ){
   ticket = 0;
   console.log(ticket)
-} else if( position === studnets){
+} else if( position === "students"){
   // 50% discount
   const discountAmount = 800*50/100;
   const payAmount = ticket - discountAmount;

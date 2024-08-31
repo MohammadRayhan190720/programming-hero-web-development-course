@@ -135,3 +135,9 @@ if(Array.isArray(age)){
 // Create two arrays of your choice.
 // Use the concat method to combine the two arrays into a new array.
 // Print both the original arrays and the combined array using console.log().
+
+const skills = ["Html","css","javascript"];
+const skills2 = ["React","Node.js","MongoDB"];
+
+const frontendSkill = skills.concat(skills2);
+console.log(frontendSkill);

@@ -20,3 +20,16 @@ studentAge.shift();
 console.log(studentAge);
 studentAge.unshift(19);
 console.log(studentAge);
+
+
+//array methods
+
+//includes()
+const fruits = ['mango','banana','apple','orange','jackfruits'];
+console.log(fruits.includes('orange'));
+
+if (fruits.includes('pineapple')){
+  console.log("Eat all Fruits");
+}else{
+  console.log("never eat Fruits");
+}

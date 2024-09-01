@@ -316,5 +316,19 @@ if( age1 <10 ){
   console.log(ticket);
 }
 
+//reallife conditions practice from MDN
+
+const weather = document.querySelector("select");
+const result2 = document.querySelector("#pera");
+
+weather.addEventListener("change", setWeather);
+
+const setWeather = () => {
+   if(weather === "sunny"){
+    
+   }
+}
+
+
 
 

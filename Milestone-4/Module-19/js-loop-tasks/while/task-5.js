@@ -10,5 +10,9 @@ while ( countDown >= 15){
   countDown --;
 }
 
+for ( let count = 30; count >= 15; count--){
+  console.log("count: " + count) ;
+}
+
 
         

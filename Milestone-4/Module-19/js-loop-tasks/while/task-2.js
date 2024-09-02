@@ -13,6 +13,11 @@ while ( oddNumber <=100){
   oddNumber ++;
 }
 
+for ( let i = 61; i <=100; i++){
+  if(i % 2 === 1){
+    console.log("Odd Number between 61-100: " + i);
+}
+}
 
 /***
 
@@ -22,4 +27,10 @@ Find all the even numbers from 78 to 98.
 
  */
 
-/*programming hero*/
+let number = 78;
+while ( number <=98){
+  if( number % 2 !== 1){
+    console.log("Even Number  between 78-98: " + number)
+  }
+  number ++;
+}

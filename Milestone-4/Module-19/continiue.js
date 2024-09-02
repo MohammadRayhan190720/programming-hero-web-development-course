@@ -15,3 +15,13 @@ while (number <= 50){
   }
   console.log(number);
 }
+
+//do-while loop
+
+let num = 100 ;
+do{
+  console.log(num);
+  num++;
+
+}
+while( num <=10)

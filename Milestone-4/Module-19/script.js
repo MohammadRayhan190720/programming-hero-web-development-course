@@ -70,3 +70,9 @@ while( num4 <=10){
  num4++;
 
 }
+
+// for loop
+
+for ( let i = 0; i<=10 ; i++){
+  console.log(i)
+}

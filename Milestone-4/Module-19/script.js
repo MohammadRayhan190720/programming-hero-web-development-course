@@ -101,3 +101,11 @@ for( i = 1; i<=20 ; i++){
 }
 console.log("sum of 1-20 is :" + sum1)
 
+//decrement
+
+for ( i = 10; i >=0 ; i--){
+  console.log(i)
+}
+
+//while
+

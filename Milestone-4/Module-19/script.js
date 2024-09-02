@@ -115,3 +115,29 @@ while ( num5 >= 0){
   num5--;
 }
 
+//different ways to use loop
+// odd number print 1-20
+//1
+
+// for( i = 0 ; i <= 20 ; i++){
+//   if ( i % 2 === 1){
+//     console.log(i);
+//   }
+// }
+
+//2
+for( i = 0 ; i <= 20 ; i++){
+  if ( i % 2 !== 0){
+    console.log(i);
+  }
+}
+
+//3
+
+for (i = 1; i <= 20; i+=2) {
+  console.log(i);
+  
+}
+
+
+

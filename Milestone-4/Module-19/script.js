@@ -139,5 +139,32 @@ for (i = 1; i <= 20; i+=2) {
   
 }
 
+//list of number between 1-30 divided by 5
 
+for ( i = 1 ; i <=30 ; i++){
+  if( i % 5 === 0){
+    console.log(i)
+  }
+}
+
+//list of number between 1-30 divided by 3
+
+for ( i = 1 ; i <= 30 ; i++){
+  if( i % 3 === 0){
+    console.log(i)
+  }
+}
+
+//list of number between 1-30 divided by 3 and 5
+for ( i = 1 ; i <= 30 ; i++){
+  if ( i % 3 === 0 && i % 5 ===0){
+    console.log(i)
+  }
+}
+
+
+
+
+
+//list of number between 1-30 divided by 3 or 5
 

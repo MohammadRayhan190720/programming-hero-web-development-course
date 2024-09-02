@@ -76,3 +76,9 @@ while( num4 <=10){
 for ( let i = 0; i<=10 ; i++){
   console.log(i)
 }
+
+//even number print
+
+for (let i = 0; i<= 20 ; i+=2){
+  console.log(i)
+}

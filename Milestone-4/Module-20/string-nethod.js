@@ -14,3 +14,10 @@ console.log(sentence.split('o'));
 const subjects = ["English", "Spanish", "chemestry"]
 console.log(subjects.join(','))
 
+//concate
+
+console.log(subjects.concat( sentence))
+
+//include
+
+console.log(subjects.includes("English"));

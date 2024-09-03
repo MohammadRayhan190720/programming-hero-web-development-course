@@ -22,7 +22,7 @@ console.log(student[3]);
 // array is mutable => changable
 
 
-//uppercase (),lowercase(). trip()
+//uppercase (),lowercase(). trim()
 
 const subject = '  chemestry';
 const book = 'ChemesTry';

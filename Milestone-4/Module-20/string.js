@@ -20,3 +20,16 @@ console.log(student[3]);
 
 //string is immutable => not changeable
 // array is mutable => changable
+
+
+//uppercase (),lowercase(). trip()
+
+const subject = '  chemestry';
+const book = 'ChemesTry';
+
+if ( subject.toLocaleLowerCase().trim() === book.toLocaleLowerCase().trim() ){
+  console.log("Exam vlo hbe beaucse I read both subject")
+}
+else{
+  console.log("Exam vlo hbe na")
+}

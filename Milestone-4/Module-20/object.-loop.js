@@ -7,7 +7,20 @@ const mobile = {
   software : ['opera-mini','crome-browser', 'firefox','facebook','youtube']
 }
 
+
+//for of=> array
+//for in => object
+
 for ( const key in mobile){
   // console.log(key);
+  console.log(mobile[key]);
+}
+
+
+let keys = Object.keys(mobile);
+console.log(keys);
+
+for (const key of keys){
+  console.log(key);
   console.log(mobile[key]);
 }

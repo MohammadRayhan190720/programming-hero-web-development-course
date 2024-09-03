@@ -11,4 +11,6 @@ console.log(sentence.split('o'));
 
 //join
 
-const subjects = 'English,Bangla,Chemestry,'
+const subjects = ["English", "Spanish", "chemestry"]
+console.log(subjects.join(','))
+

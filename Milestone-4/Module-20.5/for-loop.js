@@ -8,7 +8,15 @@ const friends = [ 'Elon' , 'Mask','Mark' , 'Bill'];
 let i = 0;
 
 while (i < friends.length){
-  console.log(friends[i]);
+  // console.log(friends[i]);
 
   i++;
 }
+
+let n = 0;
+do {
+  console.log(friends[n]);
+  n++;
+  
+}
+ while (n < friends.length);

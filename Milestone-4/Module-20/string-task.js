@@ -26,6 +26,21 @@ console.log(countLetterA(sentence));
 // Task-2:
 // Count how many times a string has the letter a or A
 
+const sentence1 = "My Name is Apple And I love to eat Apple and a Ant is Very Little Animal";
+
+function countLetterA1 (letter){
+  let count = 0;
+  for (let i = 0; i <sentence1.length; i++) {
+    if (letter[i] ==="a" || letter[i] === "A"){
+      count++;
+    }
+
+}
+    return count;
+
+}
+console.log(countLetterA1(sentence1));
+
 // Task-3:
 // Check whether a string contains all the vowels a, e, i, o, u
 

@@ -15,8 +15,20 @@ while (i < friends.length){
 
 let n = 0;
 do {
-  console.log(friends[n]);
+  // console.log(friends[n]);
   n++;
   
 }
  while (n < friends.length);
+
+
+ //for of
+
+ for (const friend of friends) {
+  // console.log(friend);
+  
+ }
+
+ 
+
+ 

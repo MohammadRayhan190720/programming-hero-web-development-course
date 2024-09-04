@@ -69,6 +69,28 @@ function checkVowels (str){
 // If a given string has either x, replace x by y. if the given string has X, replace it by Y.
 // Hint: You should be able to check whether x or X exists. After that, search online how to replace a character in a string.
 
+let sentence3 = "this axe is my agxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+function xreplacer (letter){
+  return letter.split('x').join('y').split('X').join('Y')
+}
+
+console.log(xreplacer(sentence3));
+
 // 
 // Task-5:
 // Capitalize Every first Letter of each word in a String
+
+function capitalizeEveryFirstLetter(letter){
+  let words = letter.split(' ');
+
+  for ( let i = 0 ; i < words.length;i++){
+    words[i] = words[i][0].toUpperCase() + words[i].slice(1);
+  }
+  return words.join(' ');
+}
+
+let sentence4 = "My name is rayhan i am form bangladesh"
+
+console.log(capitalizeEveryFirstLetter(sentence4));
+

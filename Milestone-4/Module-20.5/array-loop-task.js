@@ -10,6 +10,16 @@ for ( let i = colors.length - 1; i >= 0; i-- ) {
 }
        console.log(reversed);
 
+    // colors.reverse();
+    // console.log(colors);
+
+    // const rev = [];
+
+    // for (let i = 0; i < colors.length; i++) {
+    //    rev.unshift(colors[i]);
+    // }
+    // console.log(rev);
+
 
 // Output:
 

@@ -1,6 +1,28 @@
 // Task-1:
 // Count how many times a string has the letter a
 
+let sentence = 'I Love My Country Bangladesh';
+
+function countLetterA (letter){
+  letter = letter.toLowerCase();
+
+  let count = 0;
+
+  for (let i = 0; i < sentence.length; i++) {
+    if ( letter[i] === "a"){
+      count++;
+    }
+
+  }
+      return count;
+
+  
+
+}
+console.log(countLetterA(sentence));
+
+
+
 // Task-2:
 // Count how many times a string has the letter a or A
 

@@ -13,11 +13,13 @@ console.log(goldenRod);
 // Task-2
 // For this object below add a property named passenger capacity with value 5
 
-// const car = {
-//     make: "Toyota",
-//     model: "Corolla",
-//     year: 2020
-// };
+const car = {
+    make: "Toyota",
+    model: "Corolla",
+    year: 2020
+};
+car.passengercapacity = 5;
+console.log(car);
 
 // Task-3
 // Display the physics marks as output.

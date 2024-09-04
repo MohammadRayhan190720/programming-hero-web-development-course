@@ -25,3 +25,6 @@ let finalPrize = bottle.prize;
 finalPrize = 100;
 console.log(finalPrize);
 
+console.log(bottle.name);
+
+

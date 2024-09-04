@@ -40,14 +40,18 @@ for (let i = 0; i < numbers.length; i++) {
 
 console.log(evenNumbers)
 
-// Output:
 
-// [12, 98, 76, 46]
 
 // Task 3
 // Use a for...of loop to concatenate all the elements of an array into a single string.
 
-// Input: var numbers = ['Tom', 'Tim', 'Tin', 'Tik']
+ let numbers1 = ['Tom', 'Tim', 'Tin', 'Tik'];
+ let str = '';
+
+for (let number of numbers1) {
+  str = str + number;   
+}
+  console.log(str);
 
 // Output:
 
@@ -56,7 +60,21 @@ console.log(evenNumbers)
 // Task 4 (Hard)
 // Reverse the words of a sentence. Only the position of the word will be reversed. check out the output
 
-// Input: const statement = 'I am a hard working person'
+
+ let sentence = 'I am a hard working person'
+// let sentence = "Hello World from ChatGPT";
+let words = sentence.split(' ');
+let reversedSentence = '';
+
+for (let i = words.length - 1; i >= 0; i--) {
+  reversedSentence += words[i] + ' ';
+}
+
+reversedSentence = reversedSentence.trim();
+console.log(reversedSentence); // Output: "ChatGPT from World Hello"
+
+
+
 
 // Output:
 

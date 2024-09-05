@@ -57,3 +57,11 @@ while( num4 <=10){
  num4++;
 
 }
+
+//while loop decrement
+
+// let num5 = 10 ;
+// while ( num5 >= 0){
+//   console.log(num5);
+//   num5--;
+// }

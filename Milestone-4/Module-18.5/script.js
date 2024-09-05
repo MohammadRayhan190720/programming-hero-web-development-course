@@ -41,8 +41,9 @@ console.log(favouriteFood.indexOf("mango"));
 //isArray
 console.log(Array.isArray(fruits));
 
-//join()
+//join() convert a Array as a string
 console.log(fruits.join('|'))
+console.log(fruits.join(''))
 
 //concate()
 

@@ -46,12 +46,13 @@ console.log(evenNumbers)
 // Use a for...of loop to concatenate all the elements of an array into a single string.
 
  let numbers1 = ['Tom', 'Tim', 'Tin', 'Tik'];
- let str = '';
+ console.log(numbers1.join(''));
+//  let str = '';
 
-for (let number of numbers1) {
-  str = str + number;   
-}
-  console.log(str);
+// for (let number of numbers1) {
+//   str = str + number;   
+// }
+//   console.log(str);
 
 // Output:
 

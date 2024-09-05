@@ -296,12 +296,12 @@ Ticket fare Calculator
     - Otherwise Regular ticket fare 800 tk
 */
 const ticket = 800;
-let age1 = 20;
-let position = "workers";
+let age1 = 60;
+let students = false;
 if( age1 <10 ){
   ticket = 0;
   console.log(ticket)
-} else if( position === "students"){
+} else if( students === true){
   // 50% discount
   const discountAmount = 800*50/100;
   const payAmount = ticket - discountAmount;

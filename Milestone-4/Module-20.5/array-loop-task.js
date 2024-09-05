@@ -70,7 +70,7 @@ for (let i = words.length - 1; i >= 0; i--) {
   reversedSentence += words[i] + ' ';
 }
 
-reversedSentence = reversedSentence.trim();
+// reversedSentence = reversedSentence.trim();
 console.log(reversedSentence); // Output: "ChatGPT from World Hello"
 
 

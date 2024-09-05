@@ -92,7 +92,7 @@ function checkVowels (letter){
 let sentence3 = "this axe is my agxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 function xreplacer (letter){
-  return letter.split('x').join('y').split('X').join('Y')
+  return letter.split('x').join("y").split('y').join("Y");
 }
 
 console.log(xreplacer(sentence3));
@@ -100,6 +100,8 @@ console.log(xreplacer(sentence3));
 // 
 // Task-5:
 // Capitalize Every first Letter of each word in a String
+let sentence4 = "My name is rayhan i am form bangladesh";
+
 
 function capitalizeEveryFirstLetter(letter){
   let words = letter.split(' ');
@@ -110,7 +112,6 @@ function capitalizeEveryFirstLetter(letter){
   return words.join(' ');
 }
 
-let sentence4 = "My name is rayhan i am form bangladesh"
 
 console.log(capitalizeEveryFirstLetter(sentence4));
 

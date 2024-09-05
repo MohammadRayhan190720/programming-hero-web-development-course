@@ -8,6 +8,7 @@ let number = 1;
 let multiplication = 5;
 while ( number <= 10){
  const  multiplicationTable = multiplication * number ;
+   console.log(`${multiplication} * ${number} = ${multiplicationTable}`);
+
   number++;
-  console.log(multiplicationTable);
 }

@@ -17,6 +17,7 @@ for ( let i = 0; i < sentence.length; i++){
   // console.log(sentence[i]);
   let letters = sentence[i];
   rev = letters + rev;
+  //  rev = rev + letters;
 }
 console.log(rev);
 

@@ -1,25 +1,45 @@
 // Task-1:
 // Count how many times a string has the letter a
 
-let sentence = 'I Love My Country Bangladesh';
+const myCountry = " Bangladesh is my home Country I love my country very much ant";
 
-function countLetterA (letter){
+let count = 0;
+
+const countLetterA = (letter) =>{
   letter = letter.toLowerCase();
 
-  let count = 0;
-
-  for (let i = 0; i < sentence.length; i++) {
-    if ( letter[i] === "a"){
-      count++;
+  for (let i = 0; i < myCountry.length; i++){
+    if ( letter[i] === 'a' ){
+         count++;
     }
-
   }
-      return count;
+  return count;
+
+}
+console.log(countLetterA(myCountry));
+
+
+
+
+// let sentence = 'I Love My Country Bangladesh';
+
+// function countLetterA (letter){
+//   letter = letter.toLowerCase();
+
+//   let count = 0;
+
+//   for (let i = 0; i < sentence.length; i++) {
+//     if ( letter[i] === "a"){
+//       count++;
+//     }
+
+//   }
+//       return count;
 
   
 
-}
-console.log(countLetterA(sentence));
+// }
+// console.log(countLetterA(sentence));
 
 
 
@@ -44,15 +64,15 @@ console.log(countLetterA1(sentence1));
 // Task-3:
 // Check whether a string contains all the vowels a, e, i, o, u
 
-const sentence2 = "My Name is Apple And I love to eat Apple and a Ant is Very"
+const sentence2 = "Ant  eat ice Our U niversity";
 
-function checkVowels (str){
-  str = str.toLowerCase();
+function checkVowels (letter){
+  letter = letter.toLowerCase();
 
   const vowels = ["a", "e", "i", "o", "u"];
 
   for (let vowel of vowels) {
-    if (!str.includes(vowel)){
+    if (!letter.includes(vowel)){
       return false;
     }
     

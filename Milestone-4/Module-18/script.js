@@ -70,15 +70,15 @@ else {
 //tarnary operator
 
 // normal case
-// const roll = 15;
-// if(roll <= 10){
-//   console.log("Good student")
-// }
-// else{
-//   console.log("Avarage student")
-// }
+const roll = 15;
+if(roll <= 10){
+  console.log("Good student")
+}
+else{
+  console.log("Avarage student")
+}
 
-// roll <= 10 ? console.log("Good student") : console.log("Avarage student");
+roll <= 10 ? console.log("Good student") : console.log("Avarage student");
 
 // advence ternary
 // let prize = 500;
@@ -125,9 +125,9 @@ let mullo = 500;
 const isneta = false;
  
 if(!isneta){
-  mullo = 0;
+  mullo = mullo + 100;
 }else{
-  mullo = mullo +100;
+  mullo = 0;
 }
 console.log(mullo)
 
@@ -318,34 +318,34 @@ if( age1 <10 ){
 
 //reallife conditions practice from MDN
 
-const weather = document.querySelector("select");
-const result2 = document.querySelector("#pera");
+// const weather = document.querySelector("select");
+// const result2 = document.querySelector("#pera");
 
-weather.addEventListener("change", setWeather);
+// weather.addEventListener("change", setWeather);
 
-function setWeather (){
-  const choice = weather.value;
+// function setWeather (){
+//   const choice = weather.value;
 
 
-   if(choice === "sunny"){
-    result2.textContent =
-      "It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.";
-   }
-   else if( choice === "Rainy"){
-    result2.textContent =
-      "Rain is falling outside; take a rain coat and an umbrella, and don't stay out for too long.";
-   }
-   else if (choice === "snowing") {
-     result2.textContent =
-       "The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.";
-   } else if (choice === "overcas") {
-     result2.textContent =
-       "It isn't raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.";
-   }
-   else{
-    result2.textContent = "";
-   }
-}
+//    if(choice === "sunny"){
+//     result2.textContent =
+//       "It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.";
+//    }
+//    else if( choice === "Rainy"){
+//     result2.textContent =
+//       "Rain is falling outside; take a rain coat and an umbrella, and don't stay out for too long.";
+//    }
+//    else if (choice === "snowing") {
+//      result2.textContent =
+//        "The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.";
+//    } else if (choice === "overcas") {
+//      result2.textContent =
+//        "It isn't raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.";
+//    }
+//    else{
+//     result2.textContent = "";
+//    }
+// }
 
 
 

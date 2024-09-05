@@ -30,22 +30,22 @@ while(num1 <= 10){
 
 //print 1-100
 
-// let num2 = 1;
-// while (num1 <= 100) {
-//   console.log(num1);
-//   num1++;
-// }
+let num2 = 1;
+while (num2 <= 100) {
+  console.log(num2);
+  num2++;
+}
 
 //sum of 1-10
 
-// let num3 = 1 ;
-// let sum = 0 ;
+let num3 = 1 ;
+let sum = 0 ;
 
-// while( num3 <= 10){
-//   sum = sum + num3;
-//   console.log(sum)
-//   num3++;
-// }
+while( num3 <= 10){
+  sum = sum + num3;
+  console.log(sum)
+  num3++;
+}
 
 //print even number
 

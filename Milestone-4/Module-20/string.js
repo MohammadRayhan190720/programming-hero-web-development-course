@@ -3,7 +3,7 @@
 const country = 'Bangladesh';
 const nationalGame = "Criclet";
 const primeminister = `Dr. Mohammad Younus`;
-const money = new String('onlu money is real');
+const money = new String('only money is real');
 
 //array
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -27,7 +27,7 @@ console.log(student[3]);
 const subject = '  chemestry';
 const book = 'ChemesTry';
 
-if ( subject.toLocaleLowerCase().trim() === book.toLocaleLowerCase().trim() ){
+if ( subject.toUpperCase.trim() === book.toUpperCase.trim() ){
   console.log("Exam vlo hbe beaucse I read both subject")
 }
 else{

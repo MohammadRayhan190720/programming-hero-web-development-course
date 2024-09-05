@@ -7,7 +7,6 @@ console.log(name.slice(2,5))
 const sentence = "I love my Country very much";
 console.log(sentence.split(''));
 console.log(sentence.split(' '));
-console.log(sentence.split('o'));
 
 //join
 

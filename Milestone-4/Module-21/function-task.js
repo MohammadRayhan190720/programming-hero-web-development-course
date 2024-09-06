@@ -13,6 +13,18 @@ console.log(numbers)
 // Task-2
 // Take a number if the number is odd multiply it by 2 and return the result. If the number is even divide it by two and return the result.
 
+function doubleTripple(number){
+  if ( number % 2 === 1){
+    return number * 2;
+  }else{
+    return number / 2;
+  }
+
+}
+const num = 6;
+const result = doubleTripple(num);
+console.log(result)
+
 // Task-3
 // Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
 

@@ -63,3 +63,18 @@ console.log(avg)
 
 // Task-5
 // Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return Even. If odd return Odd
+
+function oddEven(numbers){
+  if ( numbers % 2 === 0){
+    // console.log(` This is a even number`)
+    return 'odd';
+  }
+  else{
+    return 'even';
+  }
+
+
+}
+const number = 20;
+const result3 = oddEven(number);
+console.log(result3)

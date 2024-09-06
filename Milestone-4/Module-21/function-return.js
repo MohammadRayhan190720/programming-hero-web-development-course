@@ -13,3 +13,6 @@ tentimes (10);
 // console.log(tentimes(10));
 const finalResult = tentimes(10);
 console.log(finalResult);
+
+const result2 = cutHalf(50);
+console.log(result2);

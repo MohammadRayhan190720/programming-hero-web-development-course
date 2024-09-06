@@ -6,5 +6,14 @@ function isEven (number){
     return false;
   }
 }
-console.log(isEven(10));
-console.log(isEven(9));
+// console.log(isEven(10));
+// console.log(isEven(9));
+
+function isOdd ( number){
+  if ( number % 2 === 1){
+    return true;
+  }
+  return false;
+}
+console.log(isOdd(10));
+console.log(isOdd(11));

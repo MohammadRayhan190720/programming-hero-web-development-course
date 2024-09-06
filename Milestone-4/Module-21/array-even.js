@@ -17,5 +17,18 @@ console.log(result);
 
 
 //sum of even numbers
+let sum = 0;
+function sumOfEven(numbers){
+  for (const number of num) {
+    if ( number % 2 !== 1){
+      sum += number;
+    }
+    
+  }
+  return sum;
+  
 
-function sumOfEven
+}
+const num = [2, 5, 3, 8, 10, 15];
+const resultSum = sumOfEven(num);
+console.log(resultSum);

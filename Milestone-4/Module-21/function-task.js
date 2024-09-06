@@ -44,6 +44,22 @@ console.log(avg)
 
 // Task-4
 // Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
+ function count_zero(bainaryString){
+  let count = 0;
+
+  for (const char of bainaryString) { 
+     if ( char === '0'){
+      count ++;
+     }
+    
+  }
+  return count;
+
+ }
+
+ const bainaryString = "10101010101010";
+ const result2 = count_zero(bainaryString);
+ console.log(result2);
 
 // Task-5
 // Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return Even. If odd return Odd

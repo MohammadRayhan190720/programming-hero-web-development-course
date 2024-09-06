@@ -27,6 +27,20 @@ console.log(result)
 
 // Task-3
 // Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
+function makeAvg(numbers,size){
+  let sum = 0;
+
+  for (const number of numbers) {
+      sum +=number;
+  }
+  return sum / size;
+
+}
+const numbers1 = [10,20,30,40];
+  const size = numbers1.length;
+
+const avg = makeAvg(numbers1,size);
+console.log(avg)
 
 // Task-4
 // Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.

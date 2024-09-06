@@ -32,3 +32,14 @@ function returnDoubleTripple( number,ifDouble){
 
 console.log(returnDoubleTripple(10,true));
 console.log(returnDoubleTripple(10,false));
+
+
+//program-3 
+
+function numberOfElements(numbers){
+  const len = numbers.length;
+  return len;
+
+}
+const numbers1 = [1,2,3,4,5,6,7,8];
+console.log(numberOfElements(numbers1));

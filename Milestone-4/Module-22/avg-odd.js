@@ -12,13 +12,14 @@
      
     }
     let sum = 0;
-    const arrayLen = oddNumbers.length;
     for (const oddNumber of oddNumbers) {
          sum += oddNumber;
            
       
     }
-    return sum / arrayLen;
+        const arrayLen = oddNumbers.length;
+
+         return sum / arrayLen;
  }
  const numbers = [5,10,15,16,18,25];
  const average = oddAverage(numbers);
@@ -39,11 +40,12 @@
   }
   let sum = 0;
 
-  let arrayLen = evenNumbers.length;
   for (const evenNumber of evenNumbers){
     sum += evenNumber;
   }
-  return sum / arrayLen;
+    let arrayLen = evenNumbers.length;
+
+     return sum / arrayLen;
 
 
  }

@@ -3,6 +3,16 @@
 // Task-1:
 // Write a function to convert temperature from Celsius to Fahrenheit.
 
+function convertTemperature(celsius){
+  const fharenheit = 40*(9/5) + 32;
+  return fharenheit;
+  
+
+}
+const temperatureCelsius = 40;
+const result = convertTemperature(temperatureCelsius);
+console.log(result);
+
 // Task-2:
 // You are given an array of numbers. Count how many times the a number is repeated in the array.
 

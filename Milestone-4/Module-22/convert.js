@@ -14,8 +14,11 @@ console.log(result);
 // 6 feet 25 inchs - these type of result
 
 function inchConvert (inch){
-  
-
+  const feetInch = inch / 12;
+  const intergerFeet = parseInt(feetInch);
+  const floatInch = inch % 12;
+  const strFeetInch = intergerFeet + " fet " + floatInch + " inch " ;
+  return strFeetInch;
 }
 const inch = 75;
 const result4 = inchConvert(inch);

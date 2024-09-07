@@ -1,8 +1,9 @@
 //calculate the average of the odd numbers in an Array
 
-const oddNumbers = [];
 
  function oddAverage(numbers){
+  const oddNumbers = [];
+
     for (const number of numbers) {
         if ( number % 2 === 1){
           oddNumbers.push(number);
@@ -25,9 +26,10 @@ const oddNumbers = [];
 
 
  //even number average
- let evenNumbers = [];
 
  function evenAverage(numbers){
+   let evenNumbers = [];
+
   for (const number of numbers){
     if ( number % 2 === 0){
       evenNumbers.push(number);

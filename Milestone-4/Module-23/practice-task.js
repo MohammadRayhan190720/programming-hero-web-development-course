@@ -85,27 +85,50 @@ function findAveragePhonePrice(phones){
 // Task -5: (Hard)
 // For each employee their current salary is calculated by multiplying yearly increment with experience then adding the result to the starting salary. Now calculate is the total salary has to be provided by the company in a month.
 
-function findCompanySalary(employees){
-  const shahinStartingSalary = employees[0].starting;
-  const shihabStartingSalary = employees[1].starting;
-  const shikotStaringSalary = employees[2].starting;
-  const shohelStartingSalary = employees[3].starting;
+// function findCompanySalary(employees){
+//   const shahinStartingSalary = employees[0].starting;
+//   const shihabStartingSalary = employees[1].starting;
+//   const shikotStaringSalary = employees[2].starting;
+//   const shohelStartingSalary = employees[3].starting;
   
-  const shainExprienceSalaryIncrement = employees[0].experience * employees[0].increment;
-  const shihabExprienceSalaryIncrement = employees[1].experience * employees[1].increment;
-  const shikotExprienceSalaryIncrement = employees[2].experience * employees[2].increment;
-  const shohelExprienceSalaryIncrement = employees[3].experience * employees[3].increment;
+//   const shainExprienceSalaryIncrement = employees[0].experience * employees[0].increment;
+//   const shihabExprienceSalaryIncrement = employees[1].experience * employees[1].increment;
+//   const shikotExprienceSalaryIncrement = employees[2].experience * employees[2].increment;
+//   const shohelExprienceSalaryIncrement = employees[3].experience * employees[3].increment;
 
-  const shahinTotalSalary = shahinStartingSalary + shainExprienceSalaryIncrement;
-  const shihabTotalSalary = shihabStartingSalary + shihabExprienceSalaryIncrement;
-  const shikotnTotalSalary = shikotStaringSalary + shikotExprienceSalaryIncrement;
-  const shohelTotalSalary = shohelStartingSalary + shohelExprienceSalaryIncrement;
+//   const shahinTotalSalary = shahinStartingSalary + shainExprienceSalaryIncrement;
+//   const shihabTotalSalary = shihabStartingSalary + shihabExprienceSalaryIncrement;
+//   const shikotnTotalSalary = shikotStaringSalary + shikotExprienceSalaryIncrement;
+//   const shohelTotalSalary = shohelStartingSalary + shohelExprienceSalaryIncrement;
 
-  const totalSalary = shihabTotalSalary + shikotnTotalSalary + shahinTotalSalary + shohelTotalSalary;
-     return totalSalary;
+//   const totalSalary = shihabTotalSalary + shikotnTotalSalary + shahinTotalSalary + shohelTotalSalary;
+//      return totalSalary;
  
-}
+// }
 
+//  const employees = [
+//             { name: "shahin", experience: 5, starting: 20000, increment: 5000 },
+//             { name: "shihab", experience: 3, starting: 15000, increment: 7000 },
+//             { name: "shikot", experience: 9, starting: 30000, increment: 1000 },
+//             { name: "shohel", experience: 0, starting: 29000, increment: 4000 },
+//         ];
+
+//         const monthlyProviedSalary = findCompanySalary(employees);
+//         console.log(monthlyProviedSalary);
+
+// more easy soulution
+
+function findCompanySalary(employees){
+  let totalSalary = 0;
+
+  for(let employee of employees){
+    const exprienceSalaryIncriment = employee.experience * employee.increment;
+    const totalEmployeeSalary = employee.starting + exprienceSalaryIncriment;
+    totalSalary += totalEmployeeSalary
+      
+  }
+  return totalSalary;;
+}
  const employees = [
             { name: "shahin", experience: 5, starting: 20000, increment: 5000 },
             { name: "shihab", experience: 3, starting: 15000, increment: 7000 },

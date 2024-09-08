@@ -4,20 +4,20 @@
 // Task -1:
 // Find the lowest number in the array below.
 
-// function minNumber (numbers){
-//   let min = numbers[0];
-//   for (const number of numbers) {
-//     if ( number < min ){
-//       min = number;
-//     }
+function minNumber (numbers){
+  let min = numbers[0];
+  for (const number of numbers) {
+    if ( number < min ){
+      min = number;
+    }
     
-//   }
-//   return min;
+  }
+  return min;
 
-// }
-// const heights2 = [167, 190, 120, 165, 137];
-// const lowestNumber = minNumber(heights2);
-// console.log(lowestNumber);
+}
+const heights2 = [167, 190, 120, 165, 137];
+const lowestNumber = minNumber(heights2);
+console.log(lowestNumber);
 
 // Task -2:
 // Find the friend with the smallest name.
@@ -33,21 +33,21 @@
 //     mobile = 20000 tk
 // Write a JavaScript function named calculateElectronicsBudget that takes in the number of laptop, tablets, and mobile and returns the total money required.
 
-// function calculateElectronicsBudget(laptopQuentity,tabletQuentity,mobileQuentity){
-//   const perLaptopPrice = 35000;
-//   const perTabletPrice = 15000;
-//   const perMobilePrice = 20000;
+function calculateElectronicsBudget(laptopQuentity,tabletQuentity,mobileQuentity){
+  const perLaptopPrice = 35000;
+  const perTabletPrice = 15000;
+  const perMobilePrice = 20000;
 
-//   const allLaptopPrice = perLaptopPrice * laptopQuentity;
-//   const allTabletPrice = perTabletPrice * tabletQuentity;
-//   const allMobilePrice = perMobilePrice * mobileQuentity;
+  const allLaptopPrice = perLaptopPrice * laptopQuentity;
+  const allTabletPrice = perTabletPrice * tabletQuentity;
+  const allMobilePrice = perMobilePrice * mobileQuentity;
 
-//   const totalPrice = allLaptopPrice + allTabletPrice + allMobilePrice;
-//   return totalPrice;
+  const totalPrice = allLaptopPrice + allTabletPrice + allMobilePrice;
+  return totalPrice;
 
-// }
-// const totalBudget = calculateElectronicsBudget(2,1,1);
-// console.log(totalBudget);
+}
+const totalBudget = calculateElectronicsBudget(2,1,1);
+console.log(totalBudget);
 
 // Task-4:
 // You are given an array of phone objects, each containing information about the model, brand, and price. Your task is to write a JavaScript function named findAveragePhonePrice that takes this array as input and returns the average price of phone.

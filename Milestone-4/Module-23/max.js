@@ -19,9 +19,9 @@ function biggerMarks (num1,num2){
 
 }
 const heightestMarks = biggerMarks(syed,mugdho);
+const max1 = biggerMarks(50,60);
+const max2 = biggerMarks(60,90);
+const ultimateMax = biggerMarks(max1,max2);
+console.log(`Height number: ${ultimateMax}`);
 console.log(`Height number: ${heightestMarks}`);
 
-//3way
-
-const maxNum = Math.max(80,50);
-console.log(maxNum);

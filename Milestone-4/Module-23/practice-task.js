@@ -1,7 +1,23 @@
 // js-problems-part2-practice-tasks
+
+
 // Task -1:
 // Find the lowest number in the array below.
-// const heights2 = [167, 190, 120, 165, 137];
+
+function minNumber (numbers){
+  let min = numbers[0];
+  for (const number of numbers) {
+    if ( number < min ){
+      min = number;
+    }
+    
+  }
+  return min;
+
+}
+const heights2 = [167, 190, 120, 165, 137];
+const lowestNumber = minNumber(heights2);
+console.log(lowestNumber);
 
 // Task -2:
 // Find the friend with the smallest name.

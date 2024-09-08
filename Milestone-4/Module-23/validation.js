@@ -20,3 +20,40 @@ function fullName(fName,lName){
 }
 const name = fullName("Rayhan",10);
 console.log(name);
+
+
+//object validation
+
+function getPrice(products){
+  if (typeof products !== 'object') {
+    return 'please select an Object with product price';
+  }
+  const price = products.price;
+  return price;
+}
+const products = {
+  name: "icce-cool",
+  price : 500,
+  color : "green",
+}
+// const products = [];
+
+
+const price = getPrice(products);
+console.log(price);
+
+
+//array validation
+
+function getSecond(numbers){
+  if (Array.isArray(numbers) !== true){
+    return 'Please input a Array';
+  };
+  const secondIndex = numbers[1];
+     return secondIndex;
+
+}
+// const numbers = [10,20,30,40,50,60];
+const numbers = 10;
+const result = getSecond(numbers);
+console.log(result);

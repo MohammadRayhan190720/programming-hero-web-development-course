@@ -57,3 +57,6 @@ function maxNumber (num1,num2,num3){
 const maxOfThree = maxNumber(kim,jim,putin);
 console.log(maxOfThree);
 
+
+const maxNumber1 = Math.max(20,30,40,80,5);
+console.log(maxNumber1);

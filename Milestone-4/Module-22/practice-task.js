@@ -16,24 +16,33 @@ console.log(result);
 // Task-2:
 // You are given an array of numbers. Count how many times the a number is repeated in the array.
 
-// sample-input: 
-const numbers = [5,6,11,12,98, 5];
-
-function countRepetedNumbers(numbers){
-  let count = 0;
-  let noRepeted = [];
-  let repeted = [];
+function countRepeatedNumbers (numbers){
+  let countMap = {};
   for (const number of numbers) {
-     if ( noRepeted.includes(number) === false){
-         noRepeted.push(number);
-     }
-      
+    if (countMap[number]){
+      countMap[number] = countMap[number] + 1;
+    }
+    else{
+      countMap[number] = 1;
+    }
+    
+    
   }
-  return noRepeted;
+  return countMap;
+
 
 }
-const count = countRepetedNumbers(numbers);
-console.log(count);
+
+
+const numbers = [5,6,11,12,98, 5,12,12,5,12];
+const repetedNumber = countRepeatedNumbers(numbers);
+console.log(repetedNumber);
+
+
+
+
+
+
 
 
 
@@ -54,16 +63,16 @@ console.log(count);
 // Task-3:
 // Write a function to count the number of vowels in a string.
 
-function vowelCount (string){
-  for (const letter of string) {
-    console.log(letter);
+// function vowelCount (string){
+//   for (const letter of string) {
+//     console.log(letter);
     
-  }
+//   }
 
-}
-const sentence = "Bangladesh";
-const countV = vowelCount(sentence);
-console.log(countV);
+// }
+// const sentence = "Bangladesh";
+// const countV = vowelCount(sentence);
+// console.log(countV);
 
 
 

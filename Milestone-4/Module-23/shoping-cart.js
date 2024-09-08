@@ -16,4 +16,24 @@ const totalPrize = sumArray(numberArray);
 console.log("total prize of product " + totalPrize);
 
 
-//
+// sum of an object in array
+
+function totalShopingPrize( products){
+  let total = 0;
+  for (const product of products){
+        total=+ product.price;
+  }
+  return total;
+  
+}
+const products = [
+  { name : "shampoo" , price : "300"},
+  { name : "facewash" , price : "200"},
+  { name : "shart" , price : "500"},
+  { name : "crime" , price : "150"},
+  { name : "jell" , price : "700"}
+];
+const totalShoping = totalShopingPrize(products);
+console.log("total prize of Shoping " + totalShoping);
+
+

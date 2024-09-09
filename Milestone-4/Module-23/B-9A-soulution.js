@@ -69,3 +69,34 @@ console.log(checkName("RAFEE"));
 console.log(checkName("Jhankar"));
 console.log(checkName(199));
 console.log(checkName(['Rayhan']));
+
+
+//problem-3
+
+function deleteInvalids(array){
+  if (Array.isArray(array) !== true) {
+    return 'Please Input a Valid  Array';
+
+  }
+  const numbersArray = [];
+  for (const element of array) {
+    if (typeof element === 'number') {
+      numbersArray.push(element);
+        
+    }
+    
+  }
+   return numbersArray;
+
+}
+
+const result = deleteInvalids([1, null, 18, -19, NaN, "12", [1, 2], { ob: "lala"}]);
+const result1 = deleteInvalids(["1" , {num:2} , NaN ]);
+const result2 = deleteInvalids([1, 2, -3]);
+const result3 = deleteInvalids({ num: [1, 2, 3] });
+
+console.log(result);
+console.log(result1);
+console.log(result2);
+console.log(result3);
+

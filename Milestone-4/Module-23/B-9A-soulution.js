@@ -43,3 +43,16 @@ console.log(calculateMoney(1055));
 console.log(calculateMoney(93));
 console.log(calculateMoney(-10));
 
+
+// problem-2
+
+function checkName (string){
+  const letters = string.split('');
+  const lastLetters = ['a', 'y','i','e','o', 'u','w'];
+  for (const letter of letters) {
+    console.log(letter);
+    
+  }
+
+}
+console.log(checkName("Salman"));

@@ -110,12 +110,22 @@ console.log(result3);
 //problem-4
 
 function password(person){
-  const capitalized = person.siteName.split('').slice(0);
-  console.log(capitalized)
-  const strongPassword = person.siteName+'#'+person.name+'@' +person.birthYear;
+  if ( person.name === undefined || person.birthYear === undefined || person.siteName === undefined || person.birthYear.toString().length !== 4){
+    return 'Invalid Input';
+  }
+  const capitalized = person.siteName[0].toUpperCase() + person.siteName.slice(1);
+  const strongPassword = capitalized+'#'+person.name+'@' +person.birthYear;
     return strongPassword;
 
 }
 const person = { name: "kolimuddin", birthYear: 1999, siteName: "google" };
 const passwordGenerate = password(person);
 console.log(passwordGenerate);
+
+const person2 = { name: "rahat", birthYear: 2002, siteName: "Facebook" };
+const passwordGenerate2 = password(person2);
+console.log(passwordGenerate2);
+const person3 ={ name: "toky", birthYear: 200, siteName: "Facebook" }
+;
+const passwordGenerate3 = password(person3);
+console.log(passwordGenerate3);

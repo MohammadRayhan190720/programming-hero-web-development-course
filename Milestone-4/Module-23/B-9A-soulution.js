@@ -46,13 +46,26 @@ console.log(calculateMoney(-10));
 
 // problem-2
 
-function checkName (string){
-  const letters = string.split('');
-  const lastLetters = ['a', 'y','i','e','o', 'u','w'];
-  for (const letter of letters) {
-    console.log(letter);
+function checkName (name){
+  if (typeof name !== 'string'){
+    return 'Please input a valid string Name';
+  }
+  const lastLetter = name [name.length - 1].toLowerCase();
+  const checkLetters = ['a','y' , 'i' , 'e', 'o' , 'u' ,' w'];
+
+  for (const letter of checkLetters) {
+    if ( letter === lastLetter ){
+      return 'Good Name';
     
   }
 
 }
+return 'Bad Name';
+
+}
+
 console.log(checkName("Salman"));
+console.log(checkName("RAFEE"));
+console.log(checkName("Jhankar"));
+console.log(checkName(199));
+console.log(checkName(['Rayhan']));

@@ -136,7 +136,7 @@ console.log(passwordGenerate3);
 
 function monthlySavings(array,cost){
   if (Array.isArray(array) === false || typeof cost !== 'number'){
-    return 'Invalid Cost';
+    return 'Invalid Input';
   }
   let totalIncome = 0;
 
@@ -162,4 +162,11 @@ function monthlySavings(array,cost){
 
 }
 const result5 = monthlySavings([1000, 2000, 3000], 5400);
+const result6 = monthlySavings([1000, 2000, 2500], 5000);
+const result7 = monthlySavings([900, 2700, 3400], 10000);
+const result8 = monthlySavings(100, [900, 2700, 3400]);
+
 console.log(result5);
+console.log(result6);
+console.log(result7);
+console.log(result8);

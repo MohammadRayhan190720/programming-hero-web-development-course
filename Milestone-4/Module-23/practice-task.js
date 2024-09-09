@@ -21,8 +21,16 @@ console.log(lowestNumber);
 
 // Task -2:
 // Find the friend with the smallest name.
-function smallestName(name){
+function smallestName(names){
+  let small = names[0];
+  for (const name of names) {
+    if ( name.length < small.length){
+          small = name;
+          
+    }
 
+}
+return small;
 }
 
 
@@ -144,4 +152,4 @@ function findCompanySalary(employees){
         ];
 
         const monthlyProviedSalary = findCompanySalary(employees);
-        console.log(monthlyProviedSalary);
+        console.log(monthlyProviedSalary)

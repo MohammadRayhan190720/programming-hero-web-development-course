@@ -53,16 +53,21 @@ function checkName (name){
   const lastLetter = name [name.length - 1].toLowerCase();
   const checkLetters = ['a','y' , 'i' , 'e', 'o' , 'u' ,' w'];
 
-  for (const letter of checkLetters) {
-    if ( letter === lastLetter ){
-      return 'Good Name';
+//   for (const letter of checkLetters) {
+//     if ( letter === lastLetter ){
+//       return 'Good Name';
     
-  }
+//   }
+
+// }
+// return 'Bad Name';
+
+const result4 = checkLetters.includes(lastLetter);
+return result4 ? 'Good Name' : 'Bad Name';
 
 }
-return 'Bad Name';
 
-}
+
 
 console.log(checkName("Salman"));
 console.log(checkName("RAFEE"));
@@ -80,7 +85,7 @@ function deleteInvalids(array){
   }
   const numbersArray = [];
   for (const element of array) {
-    if (typeof element === 'number') {
+    if (typeof element === 'number' && isNaN(element) === false) {
       numbersArray.push(element);
         
     }
@@ -100,3 +105,17 @@ console.log(result1);
 console.log(result2);
 console.log(result3);
 
+
+
+//problem-4
+
+function password(person){
+  const capitalized = person.siteName.split('').slice(0);
+  console.log(capitalized)
+  const strongPassword = person.siteName+'#'+person.name+'@' +person.birthYear;
+    return strongPassword;
+
+}
+const person = { name: "kolimuddin", birthYear: 1999, siteName: "google" };
+const passwordGenerate = password(person);
+console.log(passwordGenerate);

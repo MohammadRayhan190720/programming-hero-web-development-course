@@ -129,3 +129,22 @@ const person3 ={ name: "toky", birthYear: 200, siteName: "Facebook" }
 ;
 const passwordGenerate3 = password(person3);
 console.log(passwordGenerate3);
+
+
+
+//problem-5
+
+function monthlySavings(array,cost){
+  let totalIncome = 0;
+
+  for (const number  of array) {
+    if (number >= 3000){
+      const tax = 3000 *20 /100;
+      return tax;
+    }
+    
+  }
+
+}
+const result5 = monthlySavings([1000, 2000, 3000], 5400);
+console.log(result5);

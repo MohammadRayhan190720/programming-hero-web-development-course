@@ -135,15 +135,30 @@ console.log(passwordGenerate3);
 //problem-5
 
 function monthlySavings(array,cost){
+  if (Array.isArray(array) === false || typeof cost !== 'number'){
+    return 'Invalid Cost';
+  }
   let totalIncome = 0;
 
   for (const number  of array) {
     if (number >= 3000){
-      const tax = 3000 *20 /100;
-      return tax;
+      const tax = number *20 /100;
+      const withoutTax = number - tax;
+      totalIncome += withoutTax;
+    }else{
+      totalIncome += number;
     }
-    
+
   }
+  const saveings = totalIncome - cost;
+  if (saveings >= 0){
+    return saveings;
+  }else{
+    return 'eran more'
+  }
+
+  // return saveings >=0 ?  saveings : 'earn More';
+ 
 
 }
 const result5 = monthlySavings([1000, 2000, 3000], 5400);

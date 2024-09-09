@@ -40,21 +40,29 @@ console.log(repetedNumber);
 
 
 
-
-
-
-
-
-
-
 // find: 5
 
 // output: 2
 
 
 // sample-input:
+function findNumber(numbers1,targetNumber){
+  let count = 0;
+  for (const number of numbers1) {
+    if ( number === targetNumber){
+      count ++;
 
-// numbers = [5,6,11,12,98, 5]
+    }
+    
+  }
+  return count;
+
+}
+
+const  numbers1 = [5,6,11,12,98, 5];
+const findANumber = findNumber(numbers1,25);
+console.log(findANumber);
+
 
 // find: 25
 
@@ -63,16 +71,22 @@ console.log(repetedNumber);
 // Task-3:
 // Write a function to count the number of vowels in a string.
 
-// function vowelCount (string){
-//   for (const letter of string) {
-//     console.log(letter);
+function vowelCount (string){
+  let vowelCount = 0;
+  let vowels = ['a' , 'e', 'i', 'u' , 'o' , 'A' , 'E' , 'I' , 'O' , 'U'];
+  for (const letter of string) {
+    if ( vowels.includes(letter)){
+      vowelCount++;
+    }
     
-//   }
+  }
+  return vowelCount;
 
-// }
-// const sentence = "Bangladesh";
-// const countV = vowelCount(sentence);
-// console.log(countV);
+
+}
+const sentence = "I Love Bangladesh";
+const countVowel = vowelCount(sentence);
+console.log(countVowel);
 
 
 
@@ -80,6 +94,32 @@ console.log(repetedNumber);
 // Write a function to find the longest word in a given string.
 
 // sample-input: I am learning Programming to become a programmer
+
+ function longestWordFinding(string){
+  const words = string.split(' ');
+  let maxword = words[0];
+  
+
+  
+  for (const word of words) {
+    
+    if ( word.length > maxword.length){
+         maxword = word;
+
+    }
+    
+    
+      
+    
+  }
+  return maxword;
+
+ }
+ const sentence2 = 'I am Learning ProgrammingTHhfdggdfgj to become a programmer';
+ const longWord = longestWordFinding(sentence2);
+//  const longWord = sentence2.split(' ') ;
+ console.log(longWord);
+ 
 
 // sample-output: Programming
 

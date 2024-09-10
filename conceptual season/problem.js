@@ -38,3 +38,19 @@ const maxi = maximumNumber(numbers);
 const maxi2 = maximumNumber(numbers1);
 console.log(maxi);
 console.log(maxi2);
+
+// object theke string return
+
+function userDatails (info){
+  if (typeof info !== 'object'){
+    return 'please provide a Object';
+  }
+  const newPassword = info.name +'#'+info.Address+'@'+info.age+'.'+'com';
+  return newPassword;
+
+}
+
+
+const person = { name : "Rayhan", Address : "rangpur" , age : "24"}
+const password = userDatails(person);
+console.log(password);

@@ -9,5 +9,32 @@ for (let i = 1; i < numbers.length; i++){
       }
       
 }
-const result = maxNumber;
-console.log(result);
+console.log(maxNumber);
+
+
+//spread operator
+
+const biggestNumber = Math.max(...numbers);
+console.log(biggestNumber);
+
+//using function
+
+function maximumNumber(array){
+  if (!Array.isArray(array)){
+    return 'Please Input a valid Array'
+  }
+  let maxNumber = array[0];
+  for (const number of array) {
+     if ( number > maxNumber){
+      maxNumber = number;
+     }
+    
+  }
+  return maxNumber;
+
+}
+const numbers1 = {Name: "Rayhan",id : 5058}
+const maxi = maximumNumber(numbers);
+const maxi2 = maximumNumber(numbers1);
+console.log(maxi);
+console.log(maxi2);

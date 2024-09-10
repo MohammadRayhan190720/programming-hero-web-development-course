@@ -40,15 +40,12 @@
   
   }
   let sum = 0;
+  let arrayLen = evenNumbers.length;
 
   for (const evenNumber of evenNumbers){
     sum += evenNumber;
   }
-    let arrayLen = evenNumbers.length;
-
      return sum / arrayLen;
-
-
  }
  const numbers2 = [ 20,40,15,19,20];
  const evenAvg = evenAverage(numbers2);

@@ -12,12 +12,13 @@
      
     }
     let sum = 0;
+    const arrayLen = oddNumbers.length;
     for (const oddNumber of oddNumbers) {
          sum += oddNumber;
            
       
     }
-        const arrayLen = oddNumbers.length;
+        
 
          return sum / arrayLen;
  }

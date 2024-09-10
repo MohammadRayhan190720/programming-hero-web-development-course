@@ -19,7 +19,7 @@ function isLeapYear(year){
 
   } 
   else if ( year % 400 === 0 && year % 100 === 0){
-    return true
+    return true;
   }
   else{
     return false;

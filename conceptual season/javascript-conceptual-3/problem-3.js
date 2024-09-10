@@ -1,6 +1,9 @@
 //একটা array এর ভিতর কয়টা boolean value আছে তা count কর?
 
 function countBoolean (arr){
+  if (!Array.isArray(arr)){
+    return 'please input a valid array';
+  }
   let count = 0;
   for (const element of arr ) {
     if ( typeof element === 'boolean'){

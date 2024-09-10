@@ -1,7 +1,8 @@
 // array even return
-const evens = [];
+
 
 function evenArray (numbers){
+  const evens = [];
   for (const number of numbers) {
        if ( number % 2 !== 1){
         evens.push(number);
@@ -17,7 +18,7 @@ console.log(result);
 
 
 //sum of even numbers
-let sum = 0;
+
 function sumOfEven(numbers){
   for (const number of num) {
     if ( number % 2 !== 1){

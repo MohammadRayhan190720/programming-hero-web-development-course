@@ -1,6 +1,6 @@
 function squareNumber (number){
   console.log(number);
-  square = number * number;
+  const  square = number * number;
   console.log(`square of ${number} is ${square}`);
 
 }

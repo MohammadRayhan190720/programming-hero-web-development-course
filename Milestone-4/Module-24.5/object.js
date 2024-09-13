@@ -14,3 +14,6 @@ const students = {
     console.log("good actors but Bad Characters")
   }
 }
+
+console.log(students.address[0].permanet_address);
+act();

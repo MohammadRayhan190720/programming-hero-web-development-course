@@ -23,5 +23,9 @@ const products = [
   { id : "10" , name : "Apple Laptop" , price : 15000},
   { id : "11" , name : "One Plus Phone" , price : 15000},
 
-
 ]
+
+for (const product of products) {
+  console.log(product);
+  
+}

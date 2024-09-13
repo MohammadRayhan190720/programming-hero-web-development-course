@@ -10,6 +10,11 @@ const students = {
     }
   ],
   movies : ["Tmiamar","superstar","Jan","janKurban"],
+  car : {
+    brand : "tesla",
+    prize : 550000,
+    company : "Tesla"
+  },
   act : function (){
     console.log("good actors but Bad Characters")
   }

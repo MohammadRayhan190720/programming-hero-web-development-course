@@ -15,7 +15,7 @@ const products = [
   { id : "2" , name : "Nokia phone" , price : 15000},
   { id : "3" , name : "Sungsung phone" , price : 15000},
   { id : "4" , name : "Lexo phone" , price : 15000},
-  { id : "5" , name : "Realme phone" , price : 15000},
+  { id : "5" , name : "Realme phone for Gift" , price : 15000},
   { id : "6" , name : "HP Laptop" , price : 15000},
   { id : "7" , name : "Lenovo laptop" , price : 15000},
   { id : "8" , name : "Asus Latop" , price : 15000},
@@ -25,7 +25,21 @@ const products = [
 
 ]
 
-for (const product of products) {
-  console.log(product);
+// for (const product of products) {
   
+//   console.log(product);
+// }
+
+function matchedProduct (products, search){
+  let phones = [];
+  for (const product of products) {
+    if (product.name.toLowerCase().includes(search.toLowerCase())){
+      phones.push(product);
+    }
+
+  }
+  return phones;
+
 }
+const result = matchedProduct(products, "phone");
+console.log(result);

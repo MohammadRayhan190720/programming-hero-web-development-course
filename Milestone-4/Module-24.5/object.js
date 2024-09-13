@@ -8,5 +8,9 @@ const students = {
       permanet_address : "Bangladesh",
 
     }
-  ]
+  ],
+  movies : ["Tmiamar","superstar","Jan","janKurban"],
+  act : function (){
+    console.log("good actors but Bad Characters")
+  }
 }

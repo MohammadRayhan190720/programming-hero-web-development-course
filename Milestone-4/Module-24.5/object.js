@@ -21,4 +21,4 @@ const students = {
 }
 
 console.log(students.address[0].permanet_address);
-act();
+console.log(students.car.company);

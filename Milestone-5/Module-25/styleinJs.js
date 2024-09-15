@@ -16,3 +16,6 @@ uniqeStyle.style.backgroundColor = "lightgray";
 
 //add and Remove class
 
+const sectionThree = document.getElementById('section-3');
+sectionThree.classList.add('black-bg');
+sectionThree.classList.remove('large-text');

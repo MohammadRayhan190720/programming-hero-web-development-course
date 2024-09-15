@@ -9,3 +9,7 @@ for (const section of allSection) {
   section.style.backgroundColor = "gray";
   
 }
+
+const uniqeStyle = document.getElementById('section-2');
+// console.log(uniqeStyle);
+uniqeStyle.style.backgroundColor = "lightgray";

@@ -2,3 +2,8 @@ h1{
   background-color: cadetblue;
   color: brown;
 }
+
+.black-bg{
+  background-color: black;
+  color: white;
+}

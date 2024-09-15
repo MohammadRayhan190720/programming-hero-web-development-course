@@ -13,3 +13,6 @@ for (const section of allSection) {
 const uniqeStyle = document.getElementById('section-2');
 // console.log(uniqeStyle);
 uniqeStyle.style.backgroundColor = "lightgray";
+
+//add and Remove class
+

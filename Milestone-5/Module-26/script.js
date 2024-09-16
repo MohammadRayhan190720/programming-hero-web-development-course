@@ -38,5 +38,5 @@ makeGreen.addEventListener('click', function makeColorGreen(){
 
 //option-4 final and We mostly use this
 const makeBlue = document.getElementById('make-blue').addEventListener('click',function(){
-  document.body.style.backgroundColor = 'green';
+  document.body.style.backgroundColor = 'blue';
 })

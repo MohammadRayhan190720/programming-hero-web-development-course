@@ -39,13 +39,13 @@ mainContainer.appendChild(section);
 
 const advencedSkillSection = document.createElement('section');
 section.innerHTML = `
-<h1>This is Advance Skill Section</h1>
+<h3>This is Advance Skill Section</h3>
 <ul> 
-<li> React</li>
-<li> Node js</li>
-<li> Mongo DB</li>
-<li> Express js</li>
-<li> SQL </li>
+      <li> React</li>
+      <li> Node js</li>
+      <li> Mongo DB</li>
+      <li> Express js</li>
+      <li> SQL </li>
 </ul>
 `
 mainContainer.appendChild(advencedSkillSection);

@@ -15,4 +15,7 @@ function makePink(){
 
 //option-3 another
 
-const redBtn = document.getElementById('red-btn');
+const redBtn = document.getElementById('gray-btn');
+redBtn.onclick = function makeRed(){
+  document.body.style.backgroundColor = 'gray';
+}

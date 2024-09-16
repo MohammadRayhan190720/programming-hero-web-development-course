@@ -19,5 +19,6 @@ document.getElementById('update-btn').addEventListener('click', function(){
    
   const p = document.getElementById('text-change');
   p.innerText = changText;
+  inputText.value = ' ';
 
 })

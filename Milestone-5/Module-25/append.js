@@ -33,3 +33,19 @@ ul.appendChild(li5);
 section.appendChild(ul);
 
 mainContainer.appendChild(section);
+
+
+//set innerHTML Drectly
+
+const advencedSkillSection = document.createElement('section');
+section.innerHTML = `
+<h1>This is Advance Skill Section</h1>
+<ul> 
+<li> React</li>
+<li> Node js</li>
+<li> Mongo DB</li>
+<li> Express js</li>
+<li> SQL </li>
+</ul>
+`
+mainContainer.appendChild(advencedSkillSection);

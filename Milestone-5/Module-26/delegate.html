@@ -7,6 +7,27 @@
 </head>
 <body>
   <h1>Event Delegate and Benefit of event Bubble</h1>
+
+  <ul id="list-container">
+    <li class="item">Lorem, ipsum.</li>
+    <li class="item">Lorem, ipsum dolor.</li>
+    <li class="item">Lorem, ipsum.</li>
+    <li class="item">Lorem, ipsum dolor.</li>
+    <li class="item">Lorem ipsum dolor sit.</li>
+    <li class="item">Lorem, ipsum.</li>
+  </ul>
+
+  <script>
+    const items = document.getElementsByClassName('item');
+    for (const item of items) {
+    item.addEventListener('click',function(event){
+      // console.log(event.target.parentNode)
+      
+
+    })
+      
+    }
+  </script>
   
 </body>
 </html>

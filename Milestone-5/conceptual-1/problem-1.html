@@ -9,8 +9,8 @@
 
  <section id="section-container">
    <p>Count : <span id="count">0</span></p>
-  <button onclick="increaseHandler()" id="increase-btn">increase</button>
-  <button onclick="decreaseHandler()" id="decrease-btn">increase</button>
+  <button  id="increase-btn">increase</button>
+  <button  id="decrease-btn">increase</button>
  </section>
 
 
@@ -18,22 +18,35 @@
 
     const sectionCountainer = document.getElementById('section-container');
     const count = document.getElementById("count");
+    const increaseBtn = document.getElementById('increase-btn');
+    const decreaseBtn = document.getElementById('decrease-btn');
     
     sectionCountainer.addEventListener('click', function(){
-      console.log(clicked);
+      increaseBtn.setAttribute('disabled', true);
+      decreaseBtn.setAttribute('disabled', true);
     })
 
-    function increaseHandler(){
-      let currentCount = Number(count.innerText);
+    increaseBtn.addEventListener('click', function(event){
+     let currentCount = Number(count.innerText);
       currentCount++;
       count.innerText = currentCount;
+      event.stopPropagation();
       
-    }
-    function decreaseHandler(){
-       let currentCount = Number(count.innerText);
-       currentCount--;
+    })
+    decreaseBtn.addEventListener('click', function(event){
+     let currentCount = Number(count.innerText);
+      currentCount--;
       count.innerText = currentCount;
-    }
+       event.stopPropagation();
+    })
+
+
+    
+    // function decreaseHandler(){
+    //    let currentCount = Number(count.innerText);
+    //    currentCount--;
+    //   count.innerText = currentCount;
+    // }
 
   </script>
   

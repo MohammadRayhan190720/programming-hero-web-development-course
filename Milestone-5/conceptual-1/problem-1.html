@@ -7,9 +7,28 @@
 </head>
 <body>
 
-  <p id="count">Count : 0</p>
-  <button id="increase-btn">increase</button>
-  <button id="decrease-btn">increase</button>
+  <p>Count : <span id="count">0</span></p>
+  <button onclick="increaseHandler()" id="increase-btn">increase</button>
+  <button onclick="decreaseHandler()" id="decrease-btn">increase</button>
+
+
+  <script>
+    const count = document.getElementById("count");
+    // console.log(count.innerText);
+
+    function increaseHandler(){
+      let currentCount = Number(count.innerText);
+      currentCount++;
+      count.innerText = currentCount;
+      
+    }
+    function decreaseHandler(){
+       let currentCount = Number(count.innerText);
+       currentCount--;
+      count.innerText = currentCount;
+    }
+
+  </script>
   
 </body>
 </html>

@@ -5,9 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>navbar active status</title>
   <style>
-    #nav-container{
-      
-    }
+  
     #menu-list{
       display: flex;
       justify-content: center;
@@ -19,8 +17,9 @@
   
     .menu-item a{
       text-decoration: none;
-      color: black;
       font-weight: bold;
+     
+      
     }
   </style>
 </head>
@@ -35,6 +34,33 @@
       <li class="menu-item"><a href="#">Politices</a></li>
     </ul>
   </nav>
+
+  <script>
+
+    const menuList = document.getElementById('menu-list');
+   const menuItems = menuList.getElementsByClassName('menu-item');
+
+let lastClicked = null; // Move this outside the loop to keep track globally
+
+for (const item of menuItems) {
+  item.addEventListener('click', function() {
+    if (lastClicked !== null) {
+      // Revert the style of the previously clicked item
+      lastClicked.style.backgroundColor = "white";
+      lastClicked.style.color = "black";
+      item.style.padding = '10px';
+    }
+    
+    // Apply style to the current item
+    item.style.backgroundColor = 'red';
+    item.style.color = 'white';
+    item.style.padding = '10px';
+    
+    // Update lastClicked to the current item
+    lastClicked = item;
+  });
+}
+  </script>
 
 
 

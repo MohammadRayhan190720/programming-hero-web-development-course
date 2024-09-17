@@ -7,14 +7,21 @@
 </head>
 <body>
 
-  <p>Count : <span id="count">0</span></p>
+ <section id="section-container">
+   <p>Count : <span id="count">0</span></p>
   <button onclick="increaseHandler()" id="increase-btn">increase</button>
   <button onclick="decreaseHandler()" id="decrease-btn">increase</button>
+ </section>
 
 
   <script>
+
+    const sectionCountainer = document.getElementById('section-container');
     const count = document.getElementById("count");
-    // console.log(count.innerText);
+    
+    sectionCountainer.addEventListener('click', function(){
+      console.log(clicked);
+    })
 
     function increaseHandler(){
       let currentCount = Number(count.innerText);

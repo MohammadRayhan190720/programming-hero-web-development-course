@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Event bubble and Stop Propagating</title>
 </head>
-<body>
+<body id="main-container">
+  <h1>Event Bubble and Stop Propagating</h1>
   <section id="list-container">
-    <h1>Event Bubble and Stop Propagating</h1>
     <ul id="item-list">
       <li id="item-1">Lorem, ipsum.</li>
       <li id="item-2">Lorem ipsum dolor sit amet.</li>
@@ -19,14 +19,28 @@
   </section>
 
   <script>
-    document.getElementById('item-2').addEventListener('click', function(){
+    document.getElementById('item-2').addEventListener('click', function(event){
       console.log('item-2 clicked');
+      // event.stopPropagation();
+      event.stopImmediatePropagation();
+      
+    });
+    document.getElementById('item-2').addEventListener('click', function(event){
+      console.log('item-2 second clicked');
+      
+    });
+    document.getElementById('item-2').addEventListener('click', function(event){
+      console.log('item-2 third clicked');
+      
     });
     document.getElementById('item-list').addEventListener('click', function(){
       console.log('item-list clicked');
     });
     document.getElementById('list-container').addEventListener('click', function(){
       console.log('list-container clicked');
+    });
+    document.getElementById('main-container').addEventListener('click', function(){
+      console.log('main-container clicked');
     });
   </script>
   

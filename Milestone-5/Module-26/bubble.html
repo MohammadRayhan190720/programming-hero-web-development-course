@@ -6,9 +6,9 @@
   <title>Event bubble and Stop Propagating</title>
 </head>
 <body>
-  <section>
+  <section id="list-container">
     <h1>Event Bubble and Stop Propagating</h1>
-    <ul>
+    <ul id="item-list">
       <li id="item-1">Lorem, ipsum.</li>
       <li id="item-2">Lorem ipsum dolor sit amet.</li>
       <li id="item-3">Lorem ipsum dolor sit amet.</li>
@@ -17,6 +17,18 @@
       <li id="item-6">Lorem ipsum dolor sit amet.</li>
     </ul>
   </section>
+
+  <script>
+    document.getElementById('item-2').addEventListener('click', function(){
+      console.log('item-2 clicked');
+    });
+    document.getElementById('item-list').addEventListener('click', function(){
+      console.log('item-list clicked');
+    });
+    document.getElementById('list-container').addEventListener('click', function(){
+      console.log('list-container clicked');
+    });
+  </script>
   
 </body>
 </html>

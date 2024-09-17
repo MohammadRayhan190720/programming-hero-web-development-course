@@ -22,8 +22,19 @@
     const decreaseBtn = document.getElementById('decrease-btn');
     
     sectionCountainer.addEventListener('click', function(){
-      increaseBtn.setAttribute('disabled', true);
-      decreaseBtn.setAttribute('disabled', true);
+
+      if ( increaseBtn.getAttribute('disabled') === null ){
+        increaseBtn.setAttribute('disabled', true);
+        decreaseBtn.setAttribute('disabled', true);
+        sectionCountainer.style.backgroundColor = 'pink';
+
+      }else{
+        increaseBtn.removeAttribute('disabled');
+        decreaseBtn.removeAttribute('disabled');
+
+        sectionCountainer.style.backgroundColor ="green";
+      }
+      
     })
 
     increaseBtn.addEventListener('click', function(event){

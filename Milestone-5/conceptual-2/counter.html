@@ -8,10 +8,28 @@
 <body>
 
   <section id="section-container">
-    <h3>0</h3>
+    <h3 id="counter">0</h3>
     <button onclick="plusCounter()">Click[+]</button>
     <button id="minusCounter">Click[-]</button>
   </section>
+
+  <script>
+    
+    let count = 0;
+    function plusCounter(){
+      const counter = document.getElementById('counter');
+      count++;
+      counter.innerText = count; 
+    }
+
+    document.getElementById('minusCounter').addEventListener('click', function(){
+      const counter = document.getElementById('counter');
+      count--;
+      counter.innerText = count; 
+
+    })
+
+  </script>
   
 </body>
 </html>

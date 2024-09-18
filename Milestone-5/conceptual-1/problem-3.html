@@ -13,7 +13,7 @@
 </head>
 <body>
   <h1>Expence Calculator</h1>
-  <h3></h3>
+  <h3>Total Expences : <span id="expence-amount"> 0 </span></h3>
   <section id="section-container-main">
     <input type="text" id="input-text">
 
@@ -35,6 +35,8 @@
     const inputAmount = document.getElementById('input-amount');
     const sectionContainer = document.getElementById("section-container");
 
+    const expenceAmount = document.getElementById("expence-amount");
+
     addBtn.addEventListener('click',function(){
       
       const text = inputText.value;
@@ -47,6 +49,12 @@
       </div>
       `
       sectionContainer.innerHTML = sectionContainer.innerHTML + row;
+
+      let expence = Number(expenceAmount.innerText);
+      expence = expence + amount;
+
+      expenceAmount.innerText = expence;
+
     })
 
 

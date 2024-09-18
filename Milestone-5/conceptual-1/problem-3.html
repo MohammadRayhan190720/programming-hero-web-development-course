@@ -13,6 +13,7 @@
 </head>
 <body>
   <h1>Expence Calculator</h1>
+  <h3></h3>
   <section id="section-container-main">
     <input type="text" id="input-text">
 
@@ -22,13 +23,35 @@
 
   </section>
   <section id="section-container">
-    <div class="div-style">
+    <!-- <div class="div-style">
       <P>inputText</P>
       <P>inputAmount</P>
-    </div>
+    </div> -->
 
   </section>
-  
+  <script>
+    const addBtn = document.getElementById("add-btn");
+    const inputText = document.getElementById('input-text');
+    const inputAmount = document.getElementById('input-amount');
+    const sectionContainer = document.getElementById("section-container");
+
+    addBtn.addEventListener('click',function(){
+      
+      const text = inputText.value;
+      const amount = Number(inputAmount.value);
+      
+      const row = `
+      <div class="div-style">
+      <P>${text}</P>
+      <P>${amount}</P>
+      </div>
+      `
+      sectionContainer.innerHTML = sectionContainer.innerHTML + row;
+    })
+
+
+
+  </script>
   
 </body>
 </html>

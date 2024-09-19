@@ -16,7 +16,7 @@
   </style>
 </head>
 <body>
-  <main>
+  <main id="main-container">
     <h2>Daraz Customar Review</h2>
     <textarea name="" id="review-text" cols="60" rows="10" placeholder="write your review"></textarea>
 
@@ -24,6 +24,25 @@
 
     <P>User Review</P>
   </main>
+
+  <script>
+
+    
+    
+    document.getElementById("submit-btn").addEventListener("click", function(){
+      const reviewMessage = document.getElementById("review-text");
+      
+      const mainContainer = document.getElementById('main-container');
+      const p = document.createElement("p");
+      p.innerText = reviewMessage.value;
+
+      mainContainer.appendChild(p);
+
+      reviewMessage.value = " ";
+
+
+    })
+  </script>
   
 </body>
 </html>

@@ -13,15 +13,25 @@
     <h1 class="font-mono text-center text-3xl text-teal-400">Javascript Quote Genaretor</h1>
 
     <div class="shadow-xl p-5">
-      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellat quisquam accusamus quidem iste optio placeat praesentium ex veritatis nesciunt!</h3>
+      <h3 id="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellat quisquam accusamus quidem iste optio placeat praesentium ex veritatis nesciunt!</h3>
 
-      <h5>unknown</h5>
+      <h5 id="author" class="text-xl text-red-400">unknown</h5>
       <div class="flex justify-end">
-        <button class=" border px-5 py-3 bg-orange-300">New Quote</button>
+        <button id="quote-btn" class=" border px-5 py-3 bg-orange-300">New Quote</button>
       </div>
     </div>
 
   </main>
+  <script>
+    document.getElementById("quote-btn").addEventListener("click", function(){
+      
+      const quote = document.getElementById("quote");
+      const author = document.getElementById("author");
+
+      console.log(quote.innerText);
+
+    });
+  </script>
   
 </body>
 </html>

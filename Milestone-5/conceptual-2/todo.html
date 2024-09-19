@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make a Todo List</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <main class="max-w-md h-96 mx-auto border-2 space-y-14 p-4">
+    <h1 class="text-center text-3xl font-serif text-teal-400">My TODO LIST</h1>
+    <div class="flex justify-center items-center gap-10">
+      <input class="p-4 border border-red-500 rounded-lg" type="text" name="" id="todo-text" placeholder="write your todo hare">
+
+      <button id="add-btn" class="bg-lime-500 px-5 py-3 text-xl rounded-lg" type="submit">Add Task</button>
+    </div>
+    <div id="desc-container" class="flex justify-between">
+      <div>
+        <p>Number</p>
+       <p class="text-center" id="count-number"></p>
+      </div>
+      <P>description</P>
+      <P id="todo-description"></P>
+      <P>actions</P>
+      <div id="action">
+       
+      </div>
+    </div>
+    <div class="flex justify-end">
+      <button id="clear-btn" class="bg-gray-400 px-5 py-3 text-xl rounded-lg" type="reset">Clear All</button>
+    </div>
+  </main>
+  <script src="./todo.js"></script>
+  
+</body>
+</html>

@@ -7,10 +7,11 @@ document.getElementById('add-btn').addEventListener('click', function(){
   countNumber.innerHTML+= count + "<br>";
 
   let todoText = document.getElementById('todo-text');
-  todoText.value = " ";
   
   const todoDesc = document.getElementById('todo-description');
   todoDesc.innerHTML+= todoText.value + "<br>";
+  
+  todoText.value = " ";
 
   const descContainer = document.getElementById('desc-container');
   const actions = document.getElementById('action');

@@ -11,9 +11,9 @@ document.getElementById('add-btn').addEventListener('click', function(){
   const todoDesc = document.getElementById('todo-description');
   todoDesc.innerHTML+= todoText.value + "<br>";
 
-  const actions = document.getElementById('action');
   const descContainer = document.getElementById('desc-container');
-  console.log("actions ocures");
+  const actions = document.getElementById('action');
+  // console.log("actions ocures");
 
   actions.innerHTML = `
    <input type="checkbox">
@@ -24,6 +24,15 @@ document.getElementById('add-btn').addEventListener('click', function(){
   //clear all 
 
   document.getElementById('clear-btn').addEventListener('click', function(){
+    let countNumber = document.getElementById("count-number");
+    countNumber.innerText = '';
+
+     const todoDesc = document.getElementById("todo-description");
+     todoDesc.innerText = '';
+
+     const actions = document.getElementById("action");
+     actions.innerHTML = '';
+    
 
   });
   

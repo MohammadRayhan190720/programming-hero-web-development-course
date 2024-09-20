@@ -13,7 +13,11 @@ document.getElementById("add-money-btn").addEventListener("click", function(even
   if (pinNumber === 1234){
     console.log("add money successfully");
     const balance = document.getElementById("balance").innerText;
-    console.log(balance);
+    const balanceNumber = parseFloat(balance);
+    const currentBalance = balanceNumber + addMoneyNumber;
+
+     document.getElementById("balance").innerText = currentBalance ;
+    
   }else{
     alert("add money failed");
   }

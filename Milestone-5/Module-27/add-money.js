@@ -17,6 +17,10 @@ document.getElementById("add-money-btn").addEventListener("click", function(even
     const currentBalance = balanceNumber + addMoneyNumber;
 
      document.getElementById("balance").innerText = currentBalance ;
+     
+    //  after form submit clear the form
+    document.getElementById("add-money").value = '';
+    document.getElementById("pin").value = '';
     
   }else{
     alert("add money failed");

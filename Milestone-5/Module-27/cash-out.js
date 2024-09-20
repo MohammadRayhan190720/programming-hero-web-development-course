@@ -15,7 +15,12 @@ document.getElementById('cash-out-btn').addEventListener('click', function(event
     const updateBalance = balanceNumber - cashOutMoneyNumber ;
     
     document.getElementById('balance').innerText = updateBalance ;
-    
+
+    //after submit clear the form
+
+    document.getElementById('cash-out-money').value = '';
+    document.getElementById('cash-out-pin').value = '';
+
   }else{
     alert("Please try again later")
   }

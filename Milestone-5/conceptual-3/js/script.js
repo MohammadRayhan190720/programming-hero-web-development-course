@@ -21,6 +21,20 @@ document.getElementById('calculate').addEventListener("click", function(){
   // remove hidder form result 
   const results = document.getElementById("results");
   results.classList.remove('hidden');
+
+
+  // history
+  const historyItem = document.createElement('div');
+  historyItem.classList.add('bg-white' , "p-3" , "rounded-md", "border-l-2");
+  historyItem.innerHTML = `
+        <P class="text-xs text-gray-500">${new Date().toLocaleDateString()}</P>
+        <P class="text-xs text-gray-500"> Income ${incomeNumber.toFixed(2)}</P>
+        <P class="text-xs text-gray-500">Expences ${totalExpences.toFixed(2)}</P>
+        <P class="text-xs text-gray-500">Balance ${balance.toFixed(2)}</P>
+  `;
+  const historyContainer = document.getElementById("history-list");
+  historyContainer.appendChild(historyItem);
+  
   
 });
 
@@ -67,4 +81,6 @@ document.getElementById("history-tab").addEventListener('click',function(){
 
     document.getElementById("assistant-tab")
       .classList.remove("bg-gradient-to-r", "from-blue-500", "to-purple-600","text-white");
+
+    document.getElementById("expense-form").classList.add('hidden');
 })

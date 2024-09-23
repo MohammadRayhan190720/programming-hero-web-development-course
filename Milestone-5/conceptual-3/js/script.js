@@ -37,13 +37,15 @@ document.getElementById("calculate-savings").addEventListener('click',function()
   const balance = incomeNumber - totalExpences;
 
   const saveingPercents = parseFloat(document.getElementById("savings").value);
+  console.log(saveingPercents);
   
   const saveingAmount = (saveingPercents * balance ) / 100;
+  console.log(saveingAmount);
   
   const remainingBalance = balance - saveingAmount;
 
   // show in reuslt
-  const savingsAmountElement = document.getElementById("savings");
+  const savingsAmountElement = document.getElementById("savings-amount");
   savingsAmountElement.innerText = saveingAmount;
   
   const remainingBalanceElement = document.getElementById("remaining-balance");

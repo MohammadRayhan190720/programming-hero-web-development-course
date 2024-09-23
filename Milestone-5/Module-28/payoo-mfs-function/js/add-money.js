@@ -17,7 +17,7 @@ document.getElementById("add-money-btn").addEventListener("click", function(even
 
     // transaction - history;
     const p = document.createElement("p");
-    p.innerHTML = ` Added : ${addMoneyValue} New Balance : ${updateBalance}`
+    p.innerHTML = ` Added : ${addMoneyValue} Tk. New Balance : ${updateBalance} Tk`
     
     document.getElementById("transaction-history").appendChild(p);
 

@@ -33,7 +33,7 @@ document.getElementById('calculate').addEventListener("click", function(){
         <P class="text-xs text-gray-500">Balance ${balance.toFixed(2)}</P>
   `;
   const historyContainer = document.getElementById("history-list");
-  historyContainer.appendChild(historyItem);
+  historyContainer.insertBefore(historyItem , historyContainer.firstChild);
   
   
 });
@@ -83,4 +83,28 @@ document.getElementById("history-tab").addEventListener('click',function(){
       .classList.remove("bg-gradient-to-r", "from-blue-500", "to-purple-600","text-white");
 
     document.getElementById("expense-form").classList.add('hidden');
+    document.getElementById('history-section').classList.remove('hidden');
+});
+
+// assaistance tab functionality
+document.getElementById("assistant-tab").addEventListener("click", function(){
+  document.getElementById("expense-form").classList.remove("hidden");
+  document
+    .getElementById("assistant-tab")
+    .classList.add(
+      "bg-gradient-to-r",
+      "from-blue-500",
+      "to-purple-600",
+      "text-white"
+    );
+
+    document
+      .getElementById("history-tab")
+      .classList.remove(
+        "bg-gradient-to-r",
+        "from-blue-500",
+        "to-purple-600",
+        "text-white"
+      );
+
 })

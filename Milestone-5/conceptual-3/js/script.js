@@ -64,7 +64,17 @@ document.getElementById("calculate-savings").addEventListener('click',function()
   const totalExpences = softwareNumber + coursesNumber + internetNumber;
   const balance = incomeNumber - totalExpences;
 
+  // validation
+  if (totalExpences > incomeNumber){
+    document.getElementById("logic-error").classList.remove("hidden");
+    return ;
+  }
+
   const saveingPercents = parseFloat(document.getElementById("savings").value);
+  // validation
+  if (saveingPercents <= 0 || isNaN(saveingPercents)){
+    document.getElementById("savings-error").classList.remove('hidden');
+  }
   console.log(saveingPercents);
   
   const saveingAmount = (saveingPercents * balance ) / 100;

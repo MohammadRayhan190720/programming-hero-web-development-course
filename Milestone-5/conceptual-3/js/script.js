@@ -53,3 +53,18 @@ document.getElementById("calculate-savings").addEventListener('click',function()
   
 
 });
+
+// histroy btn add design
+document.getElementById("history-tab").addEventListener('click',function(){
+  document
+    .getElementById("history-tab")
+    .classList.add(
+      "text-white",
+      "bg-gradient-to-r",
+      "from-blue-500",
+      "to-purple-600"
+    );
+
+    document.getElementById("assistant-tab")
+      .classList.remove("bg-gradient-to-r", "from-blue-500", "to-purple-600","text-white");
+})

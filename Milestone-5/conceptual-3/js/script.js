@@ -7,6 +7,20 @@ document.getElementById('calculate').addEventListener("click", function(){
   const coursesNumber = parseFloat(document.getElementById("courses").value); 
   const internetNumber = parseFloat(document.getElementById("internet").value);
 
+  // validation
+  if (incomeNumber <= 0 || isNaN(incomeNumber)){
+    document.getElementById("income-error").classList.remove('hidden');
+  }
+  if (softwareNumber<= 0 || isNaN(softwareNumber)){
+    document.getElementById("software-error").classList.remove("hidden");
+  }
+  if (coursesNumber <= 0 || isNaN(coursesNumber)){
+    document.getElementById("courses-error").classList.remove("hidden");
+  }
+  if (internetNumber <= 0 || isNaN(internetNumber)){
+    document.getElementById("internet-error").classList.remove("hidden");
+  }
+
   
 
   const totalExpences = softwareNumber + coursesNumber + internetNumber; 

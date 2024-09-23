@@ -1,29 +1,53 @@
-const income = document.getElementById('income');
-const software = document.getElementById('software');
-const courses = document.getElementById('courses');
-const internet = document.getElementById('internet');
 
-// converted to number
+  //  calculate
+document.getElementById('calculate').addEventListener("click", function(){
+  
+  const incomeNumber = parseFloat(document.getElementById('income').value);
+  const softwareNumber = parseFloat(document.getElementById("software").value);
+  const coursesNumber = parseFloat(document.getElementById("courses").value); 
+  const internetNumber = parseFloat(document.getElementById("internet").value);
 
+  
 
-
-document.getElementById("calculate").addEventListener("click", function(){
-  const incomeNumber = parseFloat(income.value);
-  const softwareNumber = parseFloat(software.value);
-  const coursesNumber = parseFloat(courses.value);
-  const internetNumber = parseFloat(internet.value);
-
-  const totalExpences = softwareNumber + coursesNumber + internetNumber ;
+  const totalExpences = softwareNumber + coursesNumber + internetNumber; 
   const balance = incomeNumber - totalExpences ;
   
   const totalExpencesElement = document.getElementById("total-expenses");
-  totalExpencesElement.innerText = totalExpences ;
+  totalExpencesElement.innerText = totalExpences.toFixed(2) ;
 
   const balanceElement = document.getElementById("balance");
-  balanceElement.innerText = balance;
+  balanceElement.innerText = balance.toFixed(2);
+
+  // remove hidder form result 
+  const results = document.getElementById("results");
+  results.classList.remove('hidden');
   
-    
+});
+
+// calculate saveing
+document.getElementById("calculate-savings").addEventListener('click',function(){
 
 
+  const incomeNumber = parseFloat(document.getElementById("income").value);
+  const softwareNumber = parseFloat(document.getElementById("software").value);
+  const coursesNumber = parseFloat(document.getElementById("courses").value);
+  const internetNumber = parseFloat(document.getElementById("internet").value);
 
-})
+  const totalExpences = softwareNumber + coursesNumber + internetNumber;
+  const balance = incomeNumber - totalExpences;
+
+  const saveingPercents = parseFloat(document.getElementById("savings").value);
+  
+  const saveingAmount = (saveingPercents * balance ) / 100;
+  
+  const remainingBalance = balance - saveingAmount;
+
+  // show in reuslt
+  const savingsAmountElement = document.getElementById("savings");
+  savingsAmountElement.innerText = saveingAmount;
+  
+  const remainingBalanceElement = document.getElementById("remaining-balance");
+  remainingBalanceElement.innerText = remainingBalance ;
+  
+
+});

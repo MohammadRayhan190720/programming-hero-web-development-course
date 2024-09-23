@@ -10,7 +10,10 @@ document.getElementById("add-money-btn").addEventListener("click", function(even
 
   // pin validate
   if ( inputPinValue === 1234){
-    
+    const balance = getTextValue("balance");
+    const updateBalance = balance + addMoneyValue ;
+
+    document.getElementById("balance").innerText = updateBalance;
 
   }else{
     alert("failed to add money");

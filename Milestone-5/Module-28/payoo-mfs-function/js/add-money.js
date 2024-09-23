@@ -15,6 +15,12 @@ document.getElementById("add-money-btn").addEventListener("click", function(even
 
     document.getElementById("balance").innerText = updateBalance;
 
+    // transaction - history;
+    const p = document.createElement("p");
+    p.innerHTML = ` Added : ${addMoneyValue} New Balance : ${updateBalance}`
+    
+    document.getElementById("transaction-history").appendChild(p);
+
   }else{
     alert("failed to add money");
   }

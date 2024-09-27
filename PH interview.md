@@ -53,3 +53,7 @@
   1) JavaScript Event বলতে তুমি কি বুঝো? কিছু common HTML events নাম বলো।
 2) Event bubble এবং Event delegate এর পার্থক্যটা বলো। StopPropagation আমরা কি করতে পারি?
 3) innerHTML এবং innerText এর পার্থক্যটা বলো।
+
+  ### 📣📣 Dropped another interview episode!!! 9📣📣
+  1) appendChild এবং createElement এর পার্থক্য বলো।
+2) event handling কি? web development এ event handling কেন প্রয়োজন?

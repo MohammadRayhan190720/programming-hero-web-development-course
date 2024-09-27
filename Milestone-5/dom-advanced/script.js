@@ -30,5 +30,5 @@ const products = [
   { id: "5960bf40-9603-4a39-9ff6-6cf9f1ce4815", category: "Cap", name: "HeadPhone-8", seller: "Addidas", img: "./images/pexels-omarlopezphil-1192601.jpg",
      details: { price: 25, stock: 14, shipping: 14, quantity: 0, }, 
      ratingsInfo: { ratings: 4, ratingsCount: 3, },
-  },
+  }
 ]

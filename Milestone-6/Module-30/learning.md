@@ -30,3 +30,5 @@ let and const: Are hoisted to the top but are not initialized, causing a "tempor
 
 
 #### 30.2- function default parameter for not provided values
+- when we call a function if we not provided argument properly then need to set a default paremeter
+- if we expect number we set default parameter to 0, if string defaullt parameter is '', if  array defaullt parameter is[], if object defaullt parameter is{}

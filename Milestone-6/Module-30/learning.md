@@ -35,3 +35,5 @@ let and const: Are hoisted to the top but are not initialized, causing a "tempor
 
 #### 30.3- Template string,Multiple line string and Dynamic String
 
+#### 30.3- Arrow function,multiple parameter and function body
+

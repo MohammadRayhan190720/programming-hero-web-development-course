@@ -38,4 +38,7 @@ let and const: Are hoisted to the top but are not initialized, causing a "tempor
 #### 30.4- Arrow function,multiple parameter and function body
 - arrow function is a features of es6 .It allowes you to creat a function in cleaner way compared to regular function
 
+#### 30.5- More arrow function and Big arrow function
+- if arrow funtion in one line it implicitly return .If it multiline then it explicitly return(it means you write ruturn keyword)
+
 

@@ -35,5 +35,7 @@ let and const: Are hoisted to the top but are not initialized, causing a "tempor
 
 #### 30.3- Template string,Multiple line string and Dynamic String
 
-#### 30.3- Arrow function,multiple parameter and function body
+#### 30.4- Arrow function,multiple parameter and function body
+- arrow function is a features of es6 .It allowes you to creat a function in cleaner way compared to regular function
+
 

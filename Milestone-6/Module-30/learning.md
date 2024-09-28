@@ -6,8 +6,8 @@
 - const => not allowed to reassain.In a array/object I didnot change the array/object but I will change/add the index of array/object.
 - in loop we always use let beaucse there is need to change value always.
 
-`
-Here's a breakdown of the differences between var, let, and const in JavaScript:
+
+### Here's a breakdown of the differences between var, let, and const in JavaScript:
 
 1. Scope
 var: Function-scoped. If declared inside a function, it is accessible only within that function. If declared outside, it's globally scoped.
@@ -27,4 +27,3 @@ const: Cannot be reassigned (although, for objects and arrays, the contents can 
 5. Hoisting
 var: Is hoisted to the top of its scope and initialized with undefined.
 let and const: Are hoisted to the top but are not initialized, causing a "temporal dead zone" until the declaration is reached.
-`

@@ -27,3 +27,6 @@ const: Cannot be reassigned (although, for objects and arrays, the contents can 
 5. Hoisting
 var: Is hoisted to the top of its scope and initialized with undefined.
 let and const: Are hoisted to the top but are not initialized, causing a "temporal dead zone" until the declaration is reached.
+
+
+#### 30.2- function default parameter for not provided values

@@ -28,8 +28,10 @@ const: Cannot be reassigned (although, for objects and arrays, the contents can 
 var: Is hoisted to the top of its scope and initialized with undefined.
 let and const: Are hoisted to the top but are not initialized, causing a "temporal dead zone" until the declaration is reached.
 
-
 #### 30.2- function default parameter for not provided values
 - if we use the default parameter,the parameter will be the default values if the calller doesnot provided required values
 - if we expect number we set default parameter to 0, if string defaullt parameter is '', if  array defaullt parameter is[], if object defaullt parameter is{}
 - if we donot use default parameters,the parameters will be undefined if the caller doesnot provided required values 
+
+#### 30.3- Template string,Multiple line string and Dynamic String
+

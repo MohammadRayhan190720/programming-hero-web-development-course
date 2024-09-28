@@ -6,7 +6,7 @@
 - const => not allowed to reassain.In a array/object I didnot change the array/object but I will change/add the index of array/object.
 - in loop we always use let beaucse there is need to change value always.
 
-`javascript
+`
 Here's a breakdown of the differences between var, let, and const in JavaScript:
 
 1. Scope

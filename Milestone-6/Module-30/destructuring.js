@@ -25,7 +25,7 @@ const [num1,num2,num3] = numbers;
 // console.log(num3);
 const [x,y] = [45,50];
 
-//advanced destructuring
+//advanced destructuring function destructuring
 function doubleIt(x,y){
   return [x*2 , y*2];
 

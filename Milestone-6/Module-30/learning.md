@@ -175,6 +175,6 @@ The spread operator is a highly versatile and concise way to work with arrays, o
 - Helps to deal with function that have a lot of parameters,Defult values
 - it convenient to write ,easy to maintain and friendly to read
 - save form writeing repetive code
-
+- use destructure to retrieve values form an object
 
 

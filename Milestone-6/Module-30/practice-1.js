@@ -1,16 +1,27 @@
 /***
  * Write a arrow function that will take 3 parameters ,will multiply the parametes and will return the result
  */
+const multiply = (num1,num2,num3) => num1 * num2 * num3;
+const number = multiply(5,5,2);
+// console.log(number);
 
 /**
  * Write a following sentence in Three lines and Print the result
  * I am a fronted web developer. I always love code.I want to be a successful web developer.
  * 
  */
+const aboutMy = `I am a fronted web developer.
+I always love code.
+I want to be a successful web developer.
+`
+// console.log(aboutMy);
 
 /**
- * write a arrow function that will take 2 parameters ,one parameter come form you and other is default.add these two parameters and retiurn the result
+ * write a arrow function that will take 2 parameters ,one parameter come form you and other is default.add these two parameters and return the result
  */
+const add = (num1 = 0,num2 = 0) => num1 + num2;
+const sum = add(5);
+console.log(sum);
 
 /**
  * write a arrow function whwre it will do the following

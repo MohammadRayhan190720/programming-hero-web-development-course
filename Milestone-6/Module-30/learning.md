@@ -177,4 +177,6 @@ The spread operator is a highly versatile and concise way to work with arrays, o
 - save form writeing repetive code
 - use destructure to retrieve values form an object
 
+### 10.8 - Keys , values, entries , delete, seal , freeze properties
+
 

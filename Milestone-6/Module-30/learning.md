@@ -169,6 +169,12 @@ Here are 10 reasons to use the spread operator (`...`) in JavaScript:
 
 The spread operator is a highly versatile and concise way to work with arrays, objects, and function arguments, making your JavaScript code more readable, efficient, and easier to manage.
 ```
+### 10.7- Object and array destructuring
+#### necessity of destructuring
+- A technique for unpacking objects,arrays and assaining them into a variables
+- Helps to deal with function that have a lot of parameters,Defult values
+- it convenient to write ,easy to maintain and friendly to read
+- save form writeing repetive code
 
 
 

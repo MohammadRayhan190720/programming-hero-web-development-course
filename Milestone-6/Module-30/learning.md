@@ -78,4 +78,7 @@ when you need to maintain the lexical scope of this
 for non-method functions (in most cases)
 ```
 
+### 30.6- spread operator,array max,copy arrays
+
+
 

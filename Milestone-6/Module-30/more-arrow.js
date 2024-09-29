@@ -23,4 +23,23 @@ const multiTasks = (a,b,c) =>{
   const multi = a * b * c;
   const result = sum / multi;
   return result;
+
 }
+
+
+//arguments
+// function divide(a,b){
+//   console.log(arguments);
+// }
+// divide(50,20)
+
+
+// const subtract = (x,y) => {
+//   console.log(arguments);
+// }
+// subtract(2,5)
+
+// const subtract = (...argu) => {
+//   console.log(argu);
+// }
+// subtract(2,5,10,20)

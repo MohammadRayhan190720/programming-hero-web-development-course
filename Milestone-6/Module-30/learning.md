@@ -40,5 +40,42 @@ let and const: Are hoisted to the top but are not initialized, causing a "tempor
 
 #### 30.5- More arrow function and Big arrow function
 - if arrow funtion in one line it implicitly return .If it multiline then it explicitly return(it means you write ruturn keyword)
+#### different between arrow function and regular function
+- syntax => In a regular function it explicitly return adn in a arrow function it return inplicitly .if there is a one argument no need to use ().
+- agruments => You can access all the arguments passed to a regular function using the arguments object. The arguments object is an array-like object that holds all the arguments passed to the function. The arguments object is not available in arrow functions. If you try to access it in arrow functions, JavaScript will throw a reference error.To access the arguments passed to an arrow function, you can use the rest parameter syntax (...).
+```javascript
+ function divide(a,b){
+  console.log(arguments);
+ }
+ divide(50,20)
+
+
+ const subtract = (x,y) => {
+  console.log(arguments);
+}
+subtract(2,5)
+
+const subtract2 = (...argu) => {
+  console.log(argu);
+}
+subtract2(2,5,10,20)
+```
+- Duplicate Named Parameters:Arrow function return last argument of duplicate arguments.btn if use stric mode it not allow to use duplicate arguments and arrow function it not allow to use duplicate arguments
+- Function Hoisting : Regular functions are hoisted to the top. And you can access and call them even before they are declared.Arrow functions, on the other hand, cannot be accessed before they are initialised.
+
+```So Which One Should You Use?
+There is no straightforward answer to this. Whether you use a regular function or arrow function depends on the specific use case.
+
+It's recommended to use regular function in any of the following cases:
+
+when you need to use a constructor with the new keyword
+when you need the this binding to be dynamically scoped
+when you want to use the arguments object
+And you can use arrow functions in any of the following cases:
+
+when you want a more concise syntax for the function
+when you need to maintain the lexical scope of this
+for non-method functions (in most cases)
+```
 
 

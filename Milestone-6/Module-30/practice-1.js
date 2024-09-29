@@ -21,13 +21,22 @@ I want to be a successful web developer.
  */
 const add = (num1 = 0,num2 = 0) => num1 + num2;
 const sum = add(5);
-console.log(sum);
+// console.log(sum);
 
 /**
  * write a arrow function whwre it will do the following
  * 1.it will take an array where the array element will name of your friends
  * 2.Check if the length of each element is even ,push elements with even length to a new array and return the result
  */
+
+const myFriends = (friends) => {
+  const evenFriends = [];
+  // friends.filter(friend.length % ===0 => friend)
+  
+
+}
+const friends = ["sakib" , "Tamim","Jahid","Asif","Mudgho","Younus"];
+
 
 /**
  * write a arrow function whwre it will do the following
@@ -42,6 +51,16 @@ console.log(sum);
  * 2.combine two arrays and assain them in a new array
  * 3.find the maximum number from array and return the result
  */
+
+const combineArrays = (nums1,num2) => {
+  const newArray = [...nums1,...nums2];
+  const maxNumber = Math.max(...newArray);
+  return maxNumber;
+
+}
+const nums1 = [1,2,3,4,5,6,7,8];
+const nums2 = [10,15,20,30,40];
+console.log(combineArrays(nums1,nums2));
 
 
 

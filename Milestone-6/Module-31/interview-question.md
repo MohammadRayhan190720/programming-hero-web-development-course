@@ -1,0 +1,9 @@
+- Whats the different between map,forEach and filter
+- Whats the different between filter and find
+- whats the different between for of and for in
+- How do you empty an array
+- Different between class and object
+- what is the phototype chain ? or how does inheritance work in javascript
+- what does destructuring do in ES6?
+- Is optional chain is same tarnary operator?
+- What do you mean by dot notation and bracket notation ? when should you use dot notation and bracket notation?

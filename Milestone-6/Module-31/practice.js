@@ -87,3 +87,13 @@ const instroctor = [
   {name : 'Aki' , age :25 , position : 'jonour'},
   {name : 'sobuj' , age :24 , position : 'seniur'},
 ]
+
+
+/**
+ * Find out the sum of age.USeing For loop and array.reduce
+ */
+const people = [
+  {name : "Jonh", age : 25},
+  {name : "Asif", age :26},
+  {name : "Bilkis", age : 22}
+]

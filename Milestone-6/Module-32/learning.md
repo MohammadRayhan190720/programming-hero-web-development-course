@@ -14,3 +14,19 @@
  - accessing array element outside of array index range will return undefined
 - typeOf Undefined => undefined
 - typeOf Null => object ;
+#### 32.3 - Different Truethy and Falsey value in Javascript
+- truety
+ - true
+ - any number positive or negative
+ - any string other than empty string
+ - '0' , 'false'
+ - empty object and array {},[]
+ - truethy check => !!x
+
+- falsey value
+ - false
+ - Zero
+ - empty string
+ - undefined
+ - null
+ - falsy check => !x

@@ -24,18 +24,30 @@ const sum = add(5);
 // console.log(sum);
 
 /**
- * write a arrow function whwre it will do the following
+ * write a arrow function where it will do the following
  * 1.it will take an array where the array element will name of your friends
  * 2.Check if the length of each element is even ,push elements with even length to a new array and return the result
  */
 
+// useing arrow function
+const evenLenFriends = [];
 const myFriends = (friends) => {
-  const evenFriends = [];
-  // friends.filter(friend.length % ===0 => friend)
+  for (const friend of friends) {
+    if ( friend.length % 2 === 0){
+        evenLenFriends.push(friend);
+    }
+    
+  }
+  return evenLenFriends;
   
-
 }
-const friends = ["sakib" , "Tamim","Jahid","Asif","Mudgho","Younus"];
+const friends = ["sakib", "Tamim", "Jahid", "Asif", "Mudgho", "Younus"];
+console.log(myFriends(friends));
+
+// useing Array.filter
+// const friends = ["sakib" , "Tamim","Jahid","Asif","Mudgho","Younus"];
+// const evenFriends = friends.filter(friend => friend.length % 2 === 0);
+// console.log(evenFriends);
 
 
 /**
@@ -60,7 +72,7 @@ const combineArrays = (nums1,num2) => {
 }
 const nums1 = [1,2,3,4,5,6,7,8];
 const nums2 = [10,15,20,30,40];
-console.log(combineArrays(nums1,nums2));
+// console.log(combineArrays(nums1,nums2));
 
 
 

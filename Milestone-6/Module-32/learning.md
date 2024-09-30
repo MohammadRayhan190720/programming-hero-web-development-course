@@ -46,3 +46,9 @@
 
 #### 30.6- Closure ,Encapculation , Private variable
 ``` A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives a function access to its outer scope. In JavaScript, closures are created every time a function is created, at function creation time.```
+
+#### 30.7 - callback function and pass different functions
+
+#### 30.8- arguments,Pass by value and pass by reference
+- primitive data types => pass by value . vitore change krle change hbe na
+- non-primitive data types => pass by reference .vitore change krle change hbe

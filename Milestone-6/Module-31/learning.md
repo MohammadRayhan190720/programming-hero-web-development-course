@@ -11,3 +11,4 @@
 - find => work same as filter but give frist matching elements .If no element is matched it   return undefined
 
 ### 31.5 - recap map, forEach , filter , find and reduce
+- reduce => akta array ar all element nea kicu akta kore reduce

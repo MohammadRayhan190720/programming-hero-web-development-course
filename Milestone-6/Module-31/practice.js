@@ -118,6 +118,8 @@ const instroctor = [
   {name : 'Aki' , age :25 , position : 'jonour'},
   {name : 'sobuj' , age :24 , position : 'seniur'},
 ]
+const seniurInstroctor = instroctor.filter(ins => ins.position === 'seniur');
+console.log(seniurInstroctor);
 
 
 /**
@@ -128,3 +130,15 @@ const people = [
   {name : "Asif", age :26},
   {name : "Bilkis", age : 22}
 ]
+
+//for of
+let sumAge = 0;
+for (const element of people) {
+  sumAge += element.age;
+
+}
+console.log(sumAge);
+
+//array.reduce
+const sumOfAge = people.reduce((accu,curr ) => accu+ curr.age, 0);
+console.log(sumOfAge);

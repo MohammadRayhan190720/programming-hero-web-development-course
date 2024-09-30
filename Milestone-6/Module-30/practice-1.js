@@ -51,12 +51,23 @@ console.log(myFriends(friends));
 
 
 /**
- * write a arrow function whwre it will do the following
+ * write a arrow function where it will do the following
  * 1.squire each array element
  * 2.calculate the sum of squire elements
  * 3.return the average of the sum of the squired element
  */
 
+const avarageOfSquire = (numbers) =>{
+  const squireNumbers = numbers.map((number) => number * number);
+  // console.log(squireNumbers);
+  const total = squireNumbers.reduce((p, c) => p + c, 0);
+  // console.log(total);
+  return total / numbers.length;
+}
+
+
+const numbers = [5,10,15,10,5];
+console.log(avarageOfSquire(numbers));
 /**
  * write a arrow function where it will do the following
  * 1.it will take two arrays input

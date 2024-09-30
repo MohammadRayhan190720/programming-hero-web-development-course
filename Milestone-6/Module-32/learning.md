@@ -42,3 +42,4 @@
 - equal comprision does not work for non-primitive data type
 
 #### Block scope, global scope simple understanding of hoisting
+- use let or const beaucse these maintain block scope .

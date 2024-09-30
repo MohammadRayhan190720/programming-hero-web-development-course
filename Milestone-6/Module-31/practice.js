@@ -104,6 +104,11 @@ console.log(evenArray);
 /**
  * You are given an Array say [33,50,79,78,90,101,30].Now return /get all the elements which are divisible by 10 useing array.filter method and find method
  */
+const numbers2 = [33,50,79,78,90,101,30];
+const visibleByTen = numbers2.filter(number => number % 10 === 0);
+const visibleByTen2 = numbers2.find(number => number % 10 === 0);
+console.log(visibleByTen);
+console.log(visibleByTen2);
 
 /**
  * You have an array of Object.display the instroctor name who is seniur useing filter method

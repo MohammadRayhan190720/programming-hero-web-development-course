@@ -30,3 +30,15 @@
  - undefined
  - null
  - falsy check => !x
+
+ #### 30.4- Double equal(==) and Tripple equal(===), Emplicit conversion
+  - (==) => check only value
+   - type coercion
+   - type conversion
+   - type casting
+  - (===) => check value and Datatype
+
+- always use (===)
+- equal comprision does not work for non-primitive data type
+
+#### Block scope, global scope simple understanding of hoisting

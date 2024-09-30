@@ -4,3 +4,7 @@
 
 ### 31.3 - Array Map to do One line loop magic
 - map => loops through each element of an array and do the operation that you passed in the callback function and the result each operation in a array and finally return you the array
+
+### 31.4 - forEach , filter , find and different between them
+- forEach => Work same as Map but Return nothing 
+- filter => Filter select element based on condition and return array with the mathed condition

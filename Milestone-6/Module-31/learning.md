@@ -44,3 +44,4 @@ Understanding `this` is crucial for object-oriented programming in JavaScript, e
 
 
 ### Explore Crome devtool ,console tab features
+  https://developer.chrome.com/docs/devtools/console/api

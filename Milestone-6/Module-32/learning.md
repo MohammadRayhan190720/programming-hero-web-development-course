@@ -41,5 +41,8 @@
 - always use (===)
 - equal comprision does not work for non-primitive data type
 
-#### Block scope, global scope simple understanding of hoisting
+#### 30.5-Block scope, global scope simple understanding of hoisting
 - use let or const beaucse these maintain block scope .
+
+#### 30.6- Closure ,Encapculation , Private variable
+``` A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives a function access to its outer scope. In JavaScript, closures are created every time a function is created, at function creation time.```

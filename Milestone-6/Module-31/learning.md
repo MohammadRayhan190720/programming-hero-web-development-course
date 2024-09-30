@@ -12,3 +12,13 @@
 
 ### 31.5 - recap map, forEach , filter , find and reduce
 - reduce => akta array ar all element nea kicu akta kore reduce
+
+### 31.6 - Introduction to class and Object
+- Unable to Understand.Explore More
+- similar typer onk jinis make krte class use kora hoy
+- class => its call template /blue print for makeing object.Same typer onk jinis make kora jay
+
+### 31.7 - Inheritance,PhotoTypecal inheritance
+- photoType inheritance => Phototypecal inheritance refer to the ability to access object properties to another object.We use a javascript prototype to add new propeties and methods to an existing object constructor
+
+### 31.8 - This keyword, dot notation vs Braket notation

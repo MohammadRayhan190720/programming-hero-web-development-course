@@ -43,5 +43,13 @@
 Understanding `this` is crucial for object-oriented programming in JavaScript, especially when working with methods, constructors, prototypes, and event handling. Its behavior can sometimes be tricky, particularly in nested functions or when dealing with asynchronous code, so it's important to be clear about the current context in which `this` is being used.
 
 
-### Explore Crome devtool ,console tab features
+### 31.9-Explore Crome devtool ,console tab features
   https://developer.chrome.com/docs/devtools/console/api
+
+### 31.10- Javascript Error type
+- syntax error => A syntax error occured when code does not follow the correct grammar rule of javascript Language.Its like grammatical mistake.like as-
+  - missing quotes
+  - unmatched parentheses
+  - 
+- type error => A type error occured when you try to perform an operation on value that is not of the expected  data type
+- reference error => A reference error occured when you try to use a variable that has not been declared or is out of scope.

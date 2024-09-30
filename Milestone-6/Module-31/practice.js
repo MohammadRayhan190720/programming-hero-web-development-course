@@ -19,6 +19,11 @@ let data = {
   },
 };
 
+const primarySchool = data.Sophia.study[0].primary[1];
+console.log(primarySchool);
+
+
+
 // task-2: console .log  output: Petersburg, Herry
 
 let students = {
@@ -46,6 +51,12 @@ let students = {
   },
 };
 
+const city = students[2222].address.city ;
+console.log(city);
+
+const name = students[3333].name ;
+console.log(name);
+
 // task-3 : access and then show habluder adda
 // show output Beginner
 let data2 = {
@@ -70,6 +81,9 @@ let data2 = {
     },
   ],
 };
+
+const hablu = data2.data[0].bookDetails.name;
+console.log(hablu);
 
 /**
  * You have an odd array of Numbers [1,3,5,7,9].Now convert this array into a even array.[2,4,6,8,10].Do this useing for loop and Array.map method

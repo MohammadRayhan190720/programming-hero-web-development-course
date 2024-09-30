@@ -52,3 +52,15 @@
 #### 30.8- arguments,Pass by value and pass by reference
 - primitive data types => pass by value . vitore change krle change hbe na
 - non-primitive data types => pass by reference .vitore change krle change hbe
+### Error debugging
+- Debugging Step
+  - error identification
+  -error analysis
+  - fixed and validation
+
+- debuging tecnic
+ - console.log
+ - breakpoint
+ - backtracking-
+ - forword tracking
+ - ctrl + shift + 0 => finding function

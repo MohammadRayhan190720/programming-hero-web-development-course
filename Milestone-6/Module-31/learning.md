@@ -7,14 +7,14 @@
 
 ### 31.4 - forEach , filter , find and different between them
 - forEach => Work same as Map but Return nothing 
-- filter => Filter select element based on condition and return array with the mathed condition
+- filter => Filter select element based on condition and return array with the matched condition
 - find => work same as filter but give frist matching elements .If no element is matched it   return undefined
 
 ### 31.5 - recap map, forEach , filter , find and reduce
 - reduce => akta array ar all element nea kicu akta kore reduce
 
 ### 31.6 - Introduction to class and Object
-- Unable to Understand.Explore More
+- Explore More
 - similar typer onk jinis make krte class use kora hoy
 - class => its call template /blue print for makeing object.Same typer onk jinis make kora jay
 

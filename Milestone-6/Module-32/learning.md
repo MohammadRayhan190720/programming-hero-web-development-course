@@ -52,7 +52,7 @@
 #### 30.8- arguments,Pass by value and pass by reference
 - primitive data types => pass by value . vitore change krle change hbe na
 - non-primitive data types => pass by reference .vitore change krle change hbe
-### Error debugging
+### 30.9-30.11 Error debugging
 - Debugging Step
   - error identification
   -error analysis

@@ -57,3 +57,12 @@
   ### 📣📣 Dropped another interview episode!!! 10📣📣
   1) appendChild এবং createElement এর পার্থক্য বলো।
 2) event handling কি? web development এ event handling কেন প্রয়োজন?
+
+  ### 📣📣 Dropped another interview episode!!! 11📣📣
+  1) var, let, and const এর পার্থক্যটা বলো।
+2) regular functions এবং arrow functions পার্থক্য কি?
+3) template literals কি? কেন আমরা template literals ব্যবহার করবো?
+
+  ### 📣📣 Dropped another interview episode!!! 12📣📣
+  1) foreach, find এবং filter মেথড এর পার্থক্য বলো।
+2) prototypical inheritance বলতে তুমি কি বুঝ?

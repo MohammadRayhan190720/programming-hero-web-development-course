@@ -16,4 +16,7 @@
 - json to object => JSON.parse
 
 #### 33.3- Json Placeholder ,GET Data ,Display data on UI
-- 
+
+#### 33.4- Load More Data , More APIs , sent data to function
+- An API acts like a link that allows two application to talk to each other
+- API is the part of the server thats receive request sent responses

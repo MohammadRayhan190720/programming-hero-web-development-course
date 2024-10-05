@@ -20,3 +20,5 @@
 #### 33.4- Load More Data , More APIs , sent data to function
 - An API acts like a link that allows two application to talk to each other
 - API is the part of the server thats receive request sent responses
+
+#### 33.5- Dynamically Display Loaded data on Your Website

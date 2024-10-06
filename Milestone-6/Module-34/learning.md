@@ -20,5 +20,11 @@
 - call stack => The call stack is used by Javascript to keep track to multiple function call
 
 #### 34-3- single threaded ,Asynchronous vs synchronous
+- by deafult javascript is single threaded and synchronous
+ - single threaded means=>
+                         - only one statement is excuted at a time 
+                         - javascript only has one call stack 
+                         - javascript run code line by line
+                         - must finished excuting a peace of code before moving onto the next 
 - synchronous => maintain serial
-- Asynchronous => not maintain serial , fetch/ setTimeout 
+- Asynchronous => not maintain serial , fetch()/ setTimeout()/setInterval() 

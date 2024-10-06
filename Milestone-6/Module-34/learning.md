@@ -20,3 +20,5 @@
 - call stack => The call stack is used by Javascript to keep track to multiple function call
 
 #### 34-3- single threaded ,Asynchronous vs synchronous
+- synchronous => maintain serial
+- Asynchronous => not maintain serial , fetch/ setTimeout 

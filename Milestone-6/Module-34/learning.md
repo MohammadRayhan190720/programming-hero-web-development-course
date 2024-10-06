@@ -30,3 +30,5 @@
 - Asynchronous => not maintain serial , fetch()/ setTimeout()/setInterval() 
 
 #### 34.4- Promise and async await
+
+#### 34.5-setInterval and clearInterval

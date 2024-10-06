@@ -24,3 +24,5 @@
 #### 33.5- Dynamically Display Loaded data on Your Website
 
 #### 33.6- Load Posts and display on the website with css
+
+#### 33.7- Get , Post , Patch , Delete, CRUD ,GET VS Post

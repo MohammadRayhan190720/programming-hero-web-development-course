@@ -3,9 +3,20 @@ setTimeout(() =>{
 }, 4000)
 
 
+// let count = 0;
+// setInterval(()=>{
+//   count++;
+//   console.log(count)
+
+// },2000);
+
+//how to stop setInterval
 let count = 0;
-setInterval(()=>{
+const clockId = setInterval(()=>{
   count++;
-  console.log(count)
+  if (count > 2){
+    clearInterval(clockId);
+  }
+  console.log(count);
 
 },2000);

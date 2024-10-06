@@ -22,3 +22,23 @@ function dataLoader(){
 dataLoader()
 .then((data) => console.log('resolved data' , data))
 .catch ((err) => console.error('rejected data' , err))
+
+fetch('')
+.then((res => res.json()))
+.then((data) => console.log(data))
+
+async function fatchData(){
+  const res = await fetch('');
+  const data = res.json();
+  console.log(data);
+}
+fatchData();
+
+//arrow function
+
+const loadData = async() =>{
+  const res = await fetch('');
+  const data = res.json();
+  console.log(data);
+}
+loadData();

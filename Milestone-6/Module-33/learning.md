@@ -26,3 +26,11 @@
 #### 33.6- Load Posts and display on the website with css
 
 #### 33.7- Get , Post , Patch , Delete, CRUD ,GET VS Post
+##### Rest API Methods
+ - get - get / receive information about an API reasource. get is used to request data form a specified resource.  by deafult => get method
+ - post - facebook post /creat an API Reasource.Post is used to sent data to a server to creat a resouce
+ - petch - edit ..patch korte gele jinista thakte hbe. Update an API reasource
+ - put - same as patch.but jdi jinista thake tahole replace hbe ar na thakle notun kore creat krbe..update an API reasource
+ - delete - delete an api reasource
+
+ - CRUD => CRUD is the acronym Creat , Read , Update and Delete

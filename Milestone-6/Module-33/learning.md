@@ -34,3 +34,5 @@
  - delete - delete an api reasource
 
  - CRUD => CRUD is the acronym Creat , Read , Update and Delete
+
+ #### 33.8 - Debug API , Network Tab ,Status Code , Headers , Bad API

@@ -28,3 +28,5 @@
                          - must finished excuting a peace of code before moving onto the next 
 - synchronous => maintain serial
 - Asynchronous => not maintain serial , fetch()/ setTimeout()/setInterval() 
+
+#### 34.4- Promise and async await

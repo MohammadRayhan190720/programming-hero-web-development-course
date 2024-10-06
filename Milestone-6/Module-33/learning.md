@@ -36,3 +36,4 @@
  - CRUD => CRUD is the acronym Creat , Read , Update and Delete
 
  #### 33.8 - Debug API , Network Tab ,Status Code , Headers , Bad API
+ - HTTP staus Code Datails => https://developer.mozilla.org/en-US/docs/Web/HTTP/Status

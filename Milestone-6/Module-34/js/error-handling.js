@@ -4,12 +4,23 @@ function checkAge(){
   const error = document.getElementById('error');
   
   try{
-    console.log(Rangpur)
+    const age = parseInt(ageInputText);
+    if(isNaN(age)){
+      throw 'Please enter a valid age';
+    }
+    else if(age < 18){
+      throw 'You are a child.Dont try again';
+    }
+    else if(age > 30){
+      throw 'murubbi murubbi aha aha'
+    }
+
+    error.innerText = '';
 
   }
   catch(err){
     console.log('Error happend' + err)
-    error.innerText = 'Something went wrong';
+    error.innerText = 'ERROR : ' + err;
   }
   finally{
     console.log('All done inside tyr catch');

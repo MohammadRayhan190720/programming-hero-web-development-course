@@ -5,19 +5,19 @@
  * 
  */
 
-// function displayMessage(){
-//   setInterval(() =>{
-//     console.log('Hellow')
-//   },5000)
-// }
-// displayMessage();
+function displayMessage(){
+  setInterval(() =>{
+    console.log('Hellow')
+  },5000)
+}
+displayMessage();
 
-// function displayGreeting(name, delayTime){
-//   setInterval(() =>{
-//     console.log(`Hellow ${name}`)
-//   },2000)
-// }
-// displayGreeting('Alice', 2000);
+function displayGreeting(name, delayTime){
+  setInterval(() =>{
+    console.log(`Hellow ${name}`)
+  },2000)
+}
+displayGreeting('Alice', 2000);
 
 /**
  * The function tellJoke() below logs a funny message every 2 seconds after 10 seconds it stops 
@@ -46,3 +46,15 @@ function tellJoke(){
  }
 
  tellJoke();
+
+ /**
+  * Write a async await function that fetch data form an API and Logs a message
+  */
+
+ const loadData = async() =>{
+  const res = await fetch ('https://jsonplaceholder.typicode.com/albums')
+  const data = res.json();
+  console.log(data);
+
+ }
+ loadData();

@@ -36,3 +36,6 @@
 #### 34.6- Javascript Event Loop and Concurrency 
 
 #### 34.7- error handling => try ,catch,throw,finally
+
+
+#### 34.8- Explore more about async await and promise all

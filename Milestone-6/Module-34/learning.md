@@ -34,3 +34,5 @@
 #### 34.5-setInterval and clearInterval
 - setTimeout(function(),miliseconds)
 #### 34.6- Javascript Event Loop and Concurrency 
+
+#### 34.7- error handling => try ,catch,throw,finally

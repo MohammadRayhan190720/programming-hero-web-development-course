@@ -9,3 +9,7 @@
   - object dile [object,object] amn asbe
 - localStroage.removeItem('key Name') => remove item
 
+#### 36.5-1- How to set and get object form local stroage
+- object to string => json.stringify(object)
+- stirng to object => json.parse(object)
+

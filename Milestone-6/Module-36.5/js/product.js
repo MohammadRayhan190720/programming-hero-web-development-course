@@ -2,7 +2,7 @@ const addProduct = () =>{
   const product = document.getElementById("product-name").value ;
   const quentity = document.getElementById("product-quentity").value ;
   displayProduct(product,quentity)
-  saveLocalstroage(product,localStorage)
+  saveLocalstroage(product,quentity)
 }
 
 const displayProduct = (product,quentity) =>{
@@ -26,6 +26,7 @@ const getShopingCart = () =>{
 
 
 const saveLocalstroage = (product,quentity) =>{
-  const stroage = localStorage.setItem(`${product} , ${quentity}`);
-
+ const cart = getShopingCart();
+ cart[product] = quentity; // object ar modde key and value avabe set kora hoy
+ console.log(cart);
 }

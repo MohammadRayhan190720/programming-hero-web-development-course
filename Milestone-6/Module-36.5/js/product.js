@@ -19,14 +19,17 @@ const getShopingCart = () =>{
   const productCart = localStorage.getItem("cart");
 
   if (productCart){
-    cart = JSON.stringify(productCart);
+    cart = JSON.parse(productCart);
   }
   return cart;
 }
 
 
 const saveLocalstroage = (product,quentity) =>{
- const cart = getShopingCart();
+ let cart = getShopingCart();
  cart[product] = quentity; // object ar modde key and value avabe set kora hoy
- console.log(cart);
+
+ const cartStringFied  = JSON.stringify(cart);
+ console.log(cartStringFied);
+ localStorage.setItem('cart', cartStringFied);
 }

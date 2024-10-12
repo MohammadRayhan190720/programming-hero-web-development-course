@@ -63,10 +63,10 @@
 2) regular functions এবং arrow functions পার্থক্য কি?
 3) template literals কি? কেন আমরা template literals ব্যবহার করবো?
 
-  ### 📣📣 Dropped another interview episode!!! 12📣📣
   1) foreach, find এবং filter মেথড এর পার্থক্য বলো।
 2) prototypical inheritance বলতে তুমি কি বুঝ?
 
+  ### 📣📣 Dropped another interview episode!!! 13📣📣
   1) null এবং undefined এর মাঝে পার্থক্য কি ব্যাখ্যা করো
 2) double equal (==) এবং triple equal (===) এর পার্থক্য বলো।
 3) Hoisting বলতে কি বুঝ?

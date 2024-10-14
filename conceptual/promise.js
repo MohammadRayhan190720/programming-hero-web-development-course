@@ -19,15 +19,32 @@ const prosime1 = new Promise((resolve, reject) =>{
   }
 })
 
-prosime1
-.then(response =>{
-  console.log(response);
-  console.log('this is a response block')
-})
-.catch(error =>{
-  console.log(error);
-  console.log('this is an error block')
-})
-.finally(() =>{
-  console.log("I am always love you")
-})
+const getPromise = async() =>{
+  try{
+    const res = await prosime1;
+    console.log(res);
+
+  }catch(error){
+    console.log(error);
+
+  }
+  finally{
+    console.log('I always love you')
+
+  }
+
+}
+getPromise();
+
+// prosime1
+// .then(response =>{
+//   console.log(response);
+//   console.log('this is a response block')
+// })
+// .catch(error =>{
+//   console.log(error);
+//   console.log('this is an error block')
+// })
+// .finally(() =>{
+//   console.log("I am always love you")
+// })

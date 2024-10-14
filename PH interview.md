@@ -74,3 +74,9 @@
   ### 📣📣 Dropped another interview episode!!! 14📣📣
   1) CRUD operation এবং এর মেথড গুলোকে ব্যাখ্যা করো?
 2) জাভাস্ক্রিপ্ট এ closure বলতে তুমি কি বুঝ?
+
+  ### 📣📣 Dropped another interview episode!!! 15📣📣
+  1) callback function কি? callback function কখন ব্যবহার করা হয়?
+  - callback function amn akti function ja onno akti function ar arguent hisebe patano jay.
+2) জাভাস্ক্রিপ্টে pass by value এবং pass by reference এর পার্থক্য বলো।
+

@@ -5,6 +5,7 @@
 - logical and , logical or
 - array destucring , object destructring
  - spread operator , rest operator
+- arrayMethods => forEach , map, find , filter,reduce
 - json stringfy , parse , fatch
 - shortcut trueth and fulsy value
 - ternary operator

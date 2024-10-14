@@ -30,6 +30,20 @@ const saveLocalstroage = (product,quentity) =>{
  cart[product] = quentity; // object ar modde key and value avabe set kora hoy
 
  const cartStringFied  = JSON.stringify(cart);
- console.log(cartStringFied);
+//  console.log(cartStringFied);
  localStorage.setItem('cart', cartStringFied);
 }
+
+const displaySaveLocalStorage = () =>{
+  const savaData =  getShopingCart();
+  console.log(savaData);
+
+  for (const data in savaData) {
+    const quentity = savaData[data];
+    displayProduct(data, quentity);
+  }
+
+
+}
+
+displaySaveLocalStorage();

@@ -1,0 +1,12 @@
+### core concept if JS ES6
+- var vs let vs const
+- scopes in javascript
+- templates string
+- ternary operator
+- array spreading
+- object spreading
+- object accessing
+- optional chaining of object
+- function with default paremeters
+- arrow function
+- array forEach , map , filter , find function

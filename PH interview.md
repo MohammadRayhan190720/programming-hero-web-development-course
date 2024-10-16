@@ -80,3 +80,8 @@
   - callback function amn akti function ja onno akti function ar arguent hisebe patano jay.
 2) জাভাস্ক্রিপ্টে pass by value এবং pass by reference এর পার্থক্য বলো।
 
+### 📣📣 Dropped another interview episode!!! 16📣📣
+1) V8 engine কিভাবে কাজ করে?
+2) Asynchronous জাভাস্ক্রিপ্ট বলতে কি বুঝ?
+3) Promise কি? এর state গুলো ব্যাখ্যা করো
+
